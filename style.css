@@ -10,9 +10,15 @@ nav {
     background-color: var(--color-tertiary);
 }
 
+
 body {
   background-color: var(--color-secondary);
   font-family: 'Kalam', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .hero {
