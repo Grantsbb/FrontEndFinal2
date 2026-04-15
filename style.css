@@ -6,6 +6,14 @@
   --color-contrast: #1F2F16;
 }
 
+  body[data-theme="dark"] {
+    --color-primary: #A8C0E8;
+  --color-secondary: #7CA4D9;
+  --color-tertiary: #8EB0C2;
+  --color-accent: #4A8A7A;
+  --color-contrast: #E8F0E0;
+  }
+
 nav {
     background-color: var(--color-tertiary);
 }
@@ -79,4 +87,65 @@ p {
     max-width: 50%;
     display:block;
     margin: 0 auto;
+}
+
+/* The switch - box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* The knob (circle) */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* When checked (ON) */
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded corners */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }

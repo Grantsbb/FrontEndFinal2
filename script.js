@@ -1,4 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
+        const saveddarklightmode = localStorage.getItem('theme');
+    const lightdarkmode = document.getElementById('lightdarkmode');
+lightdarkmode.addEventListener('change', function() {
+    if (this.checked){
+      applyTheme('dark');
+    }
+    else {                                                                                                                                                     
+    applyTheme('light');                                    
+  }
+});
+
+  if (saveddarklightmode) applyTheme(saveddarklightmode);
   const searchBar = document.getElementById('searchBar');
 
   searchBar.addEventListener('input', function () {
@@ -17,3 +29,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+function applyTheme(theme) {
+    document.body.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+    const btn = document.getElementById("theme-toggle");
+    if (btn) btn.textContent = theme === "dark" ? "Light Mode" : "Dark Mode";
+}
