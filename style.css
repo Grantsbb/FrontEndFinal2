@@ -149,3 +149,374 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/*timer*/
+:root {
+  --color-primary: #C5D1EB;
+  --color-secondary: #92AFD7;
+  --color-tertiary: #5A7684;
+  --color-accent: #395B50;
+  --color-contrast: #1F2F16;
+}
+
+  body[data-theme="dark"] {
+    --color-primary: #A8C0E8;
+  --color-secondary: #7CA4D9;
+  --color-tertiary: #8EB0C2;
+  --color-accent: #4A8A7A;
+  --color-contrast: #E8F0E0;
+  }
+
+nav {
+    background-color: var(--color-tertiary);
+}
+
+
+body {
+  background-color: var(--color-secondary);
+  font-family: 'Kalam', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background-color: var(--color-contrast);
+  padding: 4rem 0;
+}
+
+.hero img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.hero h1, .hero p {
+  color: var(--color-primary);
+}
+
+.hero .btn {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+}
+
+h1, h2, h3 {
+  font-family: 'Tangerine', 'Helvetica Neue', sans-serif;
+}
+h1 {
+text-align: center;
+  padding: 2rem 0;
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.btn {
+    background-color: var(--color-tertiary);
+}
+.btn:hover{
+    background-color: var(--color-accent);
+}
+
+.card {
+  background-color: var(--color-primary);
+  border: none;
+}
+
+.subscription {
+    background-color: var(--color-accent);
+}
+
+.recipe-picture{
+    max-width: 50%;
+    display:block;
+    margin: 0 auto;
+}
+
+/* The switch - box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* The knob (circle) */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* When checked (ON) */
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded corners */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+:root {
+  --color-primary: #C5D1EB;
+  --color-secondary: #92AFD7;
+  --color-tertiary: #5A7684;
+  --color-accent: #395B50;
+  --color-contrast: #1F2F16;
+}
+
+  body[data-theme="dark"] {
+    --color-primary: #A8C0E8;
+  --color-secondary: #7CA4D9;
+  --color-tertiary: #8EB0C2;
+  --color-accent: #4A8A7A;
+  --color-contrast: #E8F0E0;
+  }
+
+nav {
+    background-color: var(--color-tertiary);
+}
+
+
+body {
+  background-color: var(--color-secondary);
+  font-family: 'Kalam', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background-color: var(--color-contrast);
+  padding: 4rem 0;
+}
+
+.hero img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.hero h1, .hero p {
+  color: var(--color-primary);
+}
+
+.hero .btn {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+}
+
+h1, h2, h3 {
+  font-family: 'Tangerine', 'Helvetica Neue', sans-serif;
+}
+h1 {
+text-align: center;
+  padding: 2rem 0;
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.btn {
+    background-color: var(--color-tertiary);
+}
+.btn:hover{
+    background-color: var(--color-accent);
+}
+
+.card {
+  background-color: var(--color-primary);
+  border: none;
+}
+
+.subscription {
+    background-color: var(--color-accent);
+}
+
+.recipe-picture{
+    max-width: 50%;
+    display:block;
+    margin: 0 auto;
+}
+
+/* The switch - box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* The knob (circle) */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* When checked (ON) */
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded corners */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#cooking-timer {
+  position: fixed;
+  top: 70px;
+  right: 16px;
+  z-index: 9999;
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-family: 'Kalam', sans-serif;
+  font-size: 0.9rem;
+  width: 180px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+#cooking-timer .timer-display {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  font-variant-numeric: tabular-nums;
+}
+#cooking-timer .timer-inputs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 6px;
+  align-items: center;
+  justify-content: center;
+}
+#cooking-timer .timer-inputs input {
+  width: 52px;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  padding: 2px 4px;
+  font-size: 0.85rem;
+  background-color: var(--color-primary);
+  color: var(--color-contrast);
+}
+#cooking-timer .timer-inputs span {
+  font-weight: bold;
+}
+#cooking-timer .timer-btns {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  margin-top: 6px;
+}
+#cooking-timer .timer-btns button {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+}
+#cooking-timer .timer-btns button:hover {
+  background-color: var(--color-contrast);
+}
+#cooking-timer .timer-status {
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 4px;
+  min-height: 14px;
+}
