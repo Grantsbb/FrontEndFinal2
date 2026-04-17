@@ -9,6 +9,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=Kalam&display=swap" rel="stylesheet">
 </head>
 
+<div id="cooking-timer">
+  <div class="timer-inputs">
+    <input type="number" id="t-min" min="0" max="99" value="5" />
+    <span>:</span>
+    <input type="number" id="t-sec" min="0" max="59" value="0" />
+  </div>
+  <div class="timer-display">05:00</div>
+  <div class="timer-btns">
+    <button id="t-start">Start</button>
+    <button id="t-pause">Pause</button>
+    <button id="t-reset">Reset</button>
+  </div>
+  <div class="timer-status"></div>
+</div>
+
+<script src="timer.js"></script>
+  
 <body>
 
 
