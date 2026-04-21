@@ -93,3 +93,49 @@ async function loadRecipeOfTheDay() {
 }
 
 loadRecipeOfTheDay();
+
+async function loadSeasonalSection() {
+  const container = document.getElementById('seasonal-content');
+  if (!container) return;
+
+  const month = new Date().getMonth() + 1;
+  let season;
+  if (month >= 3 && month <= 5)       season = 'Spring';
+  else if (month >= 6 && month <= 8)  season = 'Summer';
+  else if (month >= 9 && month <= 11) season = 'Autumn';
+  else                                 season = 'Winter';
+
+  const descriptions = {
+    Spring: "Nano knows just what food goes perfectly with the blossoming of spring, and has plenty of recipes to compliment the fresh fruit and warming weather.",
+    Summer: "When the sun shines bright in the sky, some lucky few have been blessed to taste one of the cool refreshing dishes Nano creates, or perhaps see one of Nano's legendary grill outs. With these recipes, you too can try your hand at a dish of such culinary expertise.",
+    Autumn: "What could possibly be better than going out to jump in leaf piles with Nano? Obviously nothing, but getting to eat one of Nano's Autumn delicacies afterward is a close second.",
+    Winter: "After a cold day of running through the snow, Nano knows just what kind of food he wants to warm him right up. Thankfully for the rest of us, Nano is willing to share this knowledge."
+  };
+
+  const pages = {
+    Spring: 'spring.html',
+    Summer: 'summer.html',
+    Autumn: 'autumn.html',
+    Winter: 'winter.html'
+  };
+
+  let recipes = [];
+  try {
+    const res = await fetch('recipes.json');
+    recipes = await res.json();
+  } catch (e) { return; }
+
+  const recipe = recipes.find(r => r.season === season);
+  const image = recipe && recipe.images && recipe.images[0] ? `images/${recipe.images[0]}` : '';
+  const imgTag = image ? `<a href="${pages[season]}"><img src="${image}" class="img-fluid" alt="${recipe.name}"></a>` : '';
+
+  container.innerHTML = `
+    <div class="col-md-6">
+      <h2>${season} Recipes</h2>
+      <p>${descriptions[season]}</p>
+      <a href="${pages[season]}" class="btn">Browse</a>
+    </div>
+    <div class="col-md-6">${imgTag}</div>`;
+}
+
+loadSeasonalSection();
