@@ -37,6 +37,28 @@ function applyTheme(theme) {
     if (btn) btn.textContent = theme === "dark" ? "Light Mode" : "Dark Mode";
 }
 
+function getFavorites() {
+  return JSON.parse(localStorage.getItem('favorites') || '[]');
+}
+
+function toggleFavorite(id) {
+  const favorites = getFavorites();
+  const ID = String(id);
+  const index = favorites.indexOf(ID);
+  if (index === -1) {
+    favorites.push(ID);
+  } else {
+    favorites.splice(index, 1);
+  }
+  localStorage.setItem('favorites', JSON.stringify(favorites));
+  const heart = document.getElementById('heart-' + id);
+  if (heart) {
+    heart.textContent = favorites.includes(ID) ? '♥' : '♡';
+    heart.classList.add('beating');
+    heart.addEventListener('animationend', () => heart.classList.remove('beating'));
+  }
+}
+
 async function loadRecipeOfTheDay() {
   const today = new Date();
   const month = String(today.getMonth() + 1).padStart(2, '0');

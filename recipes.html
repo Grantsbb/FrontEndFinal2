@@ -70,9 +70,11 @@ async function loadSeasonalPage() {
     return;
   }
 
+  const favs = getFavorites();
   container.innerHTML = recipes.map(recipe => {
     const image = recipe.images && recipe.images[0] ? `dataset/image_files/${recipe.images[0]}` : '';
     const imgTag = image ? `<img src="${image}" class="card-img-top" alt="${recipe.name}">` : '';
+    const isFav = favs.includes(String(recipe.id));
     return `
       <div class="col-md-4">
         <div class="card h-100">
@@ -85,6 +87,7 @@ async function loadSeasonalPage() {
               <strong>Difficulty:</strong> ${recipe.difficulty}
             </p>
             <a href="recipe-detail.html?id=${recipe.id}" class="btn">View Recipe</a>
+            <span class="heart-btn" id="heart-${recipe.id}" onclick="toggleFavorite(${recipe.id})">${isFav ? '♥' : '♡'}</span>
           </div>
         </div>
       </div>`;
