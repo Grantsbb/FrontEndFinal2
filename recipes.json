@@ -18,8 +18,10 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "classic_pancakes_1.jpg",
-            "classic_pancakes_2.jpg"
+            "Classic_Pancakes_1.webp",
+            "Classic_Pancakes_2.webp",
+            "Classic_Pancakes_3.webp",
+            "Classic_Pancakes_4.webp"
         ],
         "steps": [
             "In a large mixing bowl, combine flour, sugar, and baking powder.",
@@ -51,12 +53,15 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "spinach_omelette_1.jpg"
+            "Spinach_and_Feta_Omelette_1.webp",
+            "Spinach_and_Feta_Omelette_2.webp",
+            "Spinach_and_Feta_Omelette_3.webp",
+            "Spinach_and_Feta_Omelette_4.webp"
         ],
         "steps": [
             "In a small bowl, whisk eggs with a pinch of salt and pepper.",
             "Heat a non-stick skillet over medium heat and add a small amount of olive oil.",
-            "Add spinach to the skillet and saut\u00e9 until wilted, about 2 minutes.",
+            "Add spinach to the skillet and sauté until wilted, about 2 minutes.",
             "Pour the whisked eggs over the spinach, tilting the skillet to spread evenly.",
             "Crumble feta cheese over one side of the omelette.",
             "Cook until the eggs are mostly set, about 3-4 minutes.",
@@ -84,8 +89,10 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "banana_smoothie_1.jpg",
-            "banana_smoothie_2.jpg"
+            "Banana_Oatmeal_Smoothie_1.webp",
+            "Banana_Oatmeal_Smoothie_2.webp",
+            "Banana_Oatmeal_Smoothie_3.webp",
+            "Banana_Oatmeal_Smoothie_4.webp"
         ],
         "steps": [
             "Peel the banana and add it to a blender.",
@@ -114,8 +121,14 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "avocado_toast_1.jpg",
-            "avocado_toast_2.jpg"
+            "Avocado_Toast_with_Poached_Egg_1.webp",
+            "Avocado_Toast_with_Poached_Egg_2.webp",
+            "Avocado_Toast_with_Poached_Egg_3.webp",
+            "Avocado_Toast_with_Poached_Egg_4.webp",
+            "Avocado_Toast_with_Poached_Egg_5.webp",
+            "Avocado_Toast_with_Poached_Egg_6.webp",
+            "Avocado_Toast_with_Poached_Egg_7.webp",
+            "Avocado_Toast_with_Poached_Egg_8.webp"
         ],
         "steps": [
             "Toast slices of bread in a toaster or under the broiler until golden brown.",
@@ -148,12 +161,13 @@
         "prep_time": "25 min",
         "difficulty": "Moderate",
         "images": [
-            "blueberry_muffins_1.jpg",
-            "blueberry_muffins_2.jpg",
-            "blueberry_muffins_3.jpg"
+            "Blueberry_Muffins_1.webp",
+            "Blueberry_Muffins_2.webp",
+            "Blueberry_Muffins_3.webp",
+            "Blueberry_Muffins_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375\u00b0F (190\u00b0C) and grease a muffin tin or line with paper liners.",
+            "Preheat the oven to 375°F (190°C) and grease a muffin tin or line with paper liners.",
             "In a mixing bowl, combine flour, sugar, baking powder, and a pinch of salt.",
             "In a separate bowl, whisk together milk, eggs, and melted butter.",
             "Gradually add the wet ingredients to the dry ingredients, stirring until just combined.",
@@ -183,8 +197,10 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "french_toast_1.jpg",
-            "french_toast_2.jpg"
+            "French_Toast_with_Maple_Syrup_1.webp",
+            "French_Toast_with_Maple_Syrup_2.webp",
+            "French_Toast_with_Maple_Syrup_3.webp",
+            "French_Toast_with_Maple_Syrup_4.webp"
         ],
         "steps": [
             "In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon.",
@@ -213,7 +229,10 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "yogurt_parfait_1.jpg"
+            "Greek_Yogurt_Parfait_with_Granola_and_Berries_1.webp",
+            "Greek_Yogurt_Parfait_with_Granola_and_Berries_2.webp",
+            "Greek_Yogurt_Parfait_with_Granola_and_Berries_3.webp",
+            "Greek_Yogurt_Parfait_with_Granola_and_Berries_4.webp"
         ],
         "steps": [
             "In a tall glass or bowl, layer Greek yogurt, granola, and berries.",
@@ -240,15 +259,17 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "breakfast_burrito_1.jpg",
-            "breakfast_burrito_2.jpg"
+            "Breakfast_Burrito_with_Scrambled_Eggs_and_Salsa_1.webp",
+            "Breakfast_Burrito_with_Scrambled_Eggs_and_Salsa_2.webp",
+            "Breakfast_Burrito_with_Scrambled_Eggs_and_Salsa_3.webp",
+            "Breakfast_Burrito_with_Scrambled_Eggs_and_Salsa_4.webp"
         ],
         "steps": [
             "Whisk eggs in a bowl and season with salt and pepper.",
             "Heat a skillet over medium heat and lightly grease with butter or oil.",
             "Scramble the eggs until cooked, about 3 minutes.",
             "Warm the tortilla in the skillet for 1-2 minutes.",
-            "Fill the tortilla with scrambled eggs, cheese, salsa, and saut\u00e9ed bell peppers.",
+            "Fill the tortilla with scrambled eggs, cheese, salsa, and sautéed bell peppers.",
             "Roll the tortilla tightly and serve warm."
         ]
     },
@@ -272,12 +293,15 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "tofu_scramble_1.jpg"
+            "Vegan_Tofu_Scramble_1.webp",
+            "Vegan_Tofu_Scramble_2.webp",
+            "Vegan_Tofu_Scramble_3.webp",
+            "Vegan_Tofu_Scramble_4.webp"
         ],
         "steps": [
             "Heat oil in a skillet over medium heat.",
             "Crumble tofu into the skillet and sprinkle with turmeric.",
-            "Add diced bell peppers and onions, and saut\u00e9 for 5 minutes.",
+            "Add diced bell peppers and onions, and sauté for 5 minutes.",
             "Stir in spinach and cook until wilted.",
             "Season with salt and pepper, and serve."
         ]
@@ -299,11 +323,13 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "breakfast_casserole_1.jpg",
-            "breakfast_casserole_2.jpg"
+            "Sausage_and_Egg_Breakfast_Casserole_1.webp",
+            "Sausage_and_Egg_Breakfast_Casserole_2.webp",
+            "Sausage_and_Egg_Breakfast_Casserole_3.webp",
+            "Sausage_and_Egg_Breakfast_Casserole_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375\u00b0F (190\u00b0C) and grease a baking dish.",
+            "Preheat the oven to 375°F (190°C) and grease a baking dish.",
             "Cook sausage in a skillet over medium heat until browned, then set aside.",
             "In a large bowl, whisk together eggs, milk, salt, and pepper.",
             "Layer bread cubes in the greased baking dish, followed by cooked sausage and shredded cheese.",
@@ -330,9 +356,10 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "pb_banana_toast_1.jpg",
-            "pb_banana_toast_2.jpg",
-            "pb_banana_toast_3.jpg"
+            "Peanut_Butter_and_Banana_Toast_1.webp",
+            "Peanut_Butter_and_Banana_Toast_2.webp",
+            "Peanut_Butter_and_Banana_Toast_3.webp",
+            "Peanut_Butter_and_Banana_Toast_4.webp"
         ],
         "steps": [
             "Toast the bread slices in a toaster or under the broiler until golden brown.",
@@ -361,9 +388,10 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "scrambled_eggs_salmon_1.jpg",
-            "scrambled_eggs_salmon_2.jpg",
-            "scrambled_eggs_salmon_3.jpg"
+            "Scrambled_Eggs_with_Smoked_Salmon_1.webp",
+            "Scrambled_Eggs_with_Smoked_Salmon_2.webp",
+            "Scrambled_Eggs_with_Smoked_Salmon_3.webp",
+            "Scrambled_Eggs_with_Smoked_Salmon_4.webp"
         ],
         "steps": [
             "In a bowl, whisk together eggs, milk, salt, and pepper.",
@@ -394,9 +422,10 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "sweet_potato_hash_1.jpg",
-            "sweet_potato_hash_2.jpg",
-            "sweet_potato_hash_3.jpg"
+            "Sweet_Potato_Hash_with_Eggs_1.webp",
+            "Sweet_Potato_Hash_with_Eggs_2.webp",
+            "Sweet_Potato_Hash_with_Eggs_3.webp",
+            "Sweet_Potato_Hash_with_Eggs_4.webp"
         ],
         "steps": [
             "Peel and dice the sweet potato into small cubes.",
@@ -428,9 +457,10 @@
         "prep_time": "10 min + overnight",
         "difficulty": "Easy",
         "images": [
-            "chia_pudding_1.jpg",
-            "chia_pudding_2.jpg",
-            "chia_pudding_3.jpg"
+            "Overnight_Chia_Pudding_1.webp",
+            "Overnight_Chia_Pudding_2.webp",
+            "Overnight_Chia_Pudding_3.webp",
+            "Overnight_Chia_Pudding_4.webp"
         ],
         "steps": [
             "In a jar or bowl, combine chia seeds, milk, vanilla extract, and honey.",
@@ -459,9 +489,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "apple_cinnamon_oatmeal_1.jpg",
-            "apple_cinnamon_oatmeal_2.jpg",
-            "apple_cinnamon_oatmeal_3.jpg"
+            "Apple_Cinnamon_Oatmeal_1.webp",
+            "Apple_Cinnamon_Oatmeal_2.webp",
+            "Apple_Cinnamon_Oatmeal_3.webp",
+            "Apple_Cinnamon_Oatmeal_4.webp"
         ],
         "steps": [
             "In a saucepan, combine oats, milk, and a pinch of salt.",
@@ -490,8 +521,10 @@
         "prep_time": "25 min",
         "difficulty": "Easy",
         "images": [
-            "caesar_salad_1.jpg",
-            "caesar_salad_2.jpg"
+            "Grilled_Chicken_Caesar_Salad_1.webp",
+            "Grilled_Chicken_Caesar_Salad_2.webp",
+            "Grilled_Chicken_Caesar_Salad_3.webp",
+            "Grilled_Chicken_Caesar_Salad_4.webp"
         ],
         "steps": [
             "Preheat a grill or grill pan over medium-high heat.",
@@ -524,8 +557,10 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "quinoa_black_bean_bowl_1.jpg",
-            "quinoa_black_bean_bowl_2.jpg"
+            "Quinoa_and_Black_Bean_Bowl_1.webp",
+            "Quinoa_and_Black_Bean_Bowl_2.webp",
+            "Quinoa_and_Black_Bean_Bowl_3.webp",
+            "Quinoa_and_Black_Bean_Bowl_4.webp"
         ],
         "steps": [
             "Cook quinoa according to package instructions and let cool slightly.",
@@ -554,8 +589,10 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "caprese_sandwich_1.jpg",
-            "caprese_sandwich_2.jpg"
+            "Caprese_Sandwich_with_Pesto_1.webp",
+            "Caprese_Sandwich_with_Pesto_2.webp",
+            "Caprese_Sandwich_with_Pesto_3.webp",
+            "Caprese_Sandwich_with_Pesto_4.webp"
         ],
         "steps": [
             "Slice bread, mozzarella, and tomatoes into even pieces.",
@@ -586,11 +623,12 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "tomato_soup_1.jpg",
-            "grilled_cheese_1.jpg"
+            "Tomato_Basil_Soup_with_Grilled_Cheese_1.webp",
+            "Tomato_Basil_Soup_with_Grilled_Cheese_2.webp",
+            "Tomato_Basil_Soup_with_Grilled_Cheese_3.webp"
         ],
         "steps": [
-            "Heat olive oil in a large pot over medium heat and saut\u00e9 diced onions and garlic until soft.",
+            "Heat olive oil in a large pot over medium heat and sauté diced onions and garlic until soft.",
             "Add chopped tomatoes and cook for 10 minutes, stirring occasionally.",
             "Add vegetable broth and fresh basil, then simmer for another 15 minutes.",
             "Use an immersion blender to puree the soup until smooth.",
@@ -620,8 +658,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "mediterranean_chickpea_salad_1.jpg",
-            "mediterranean_chickpea_salad_2.jpg"
+            "Mediterranean_Chickpea_Salad_1.webp",
+            "Mediterranean_Chickpea_Salad_2.webp",
+            "Mediterranean_Chickpea_Salad_3.webp",
+            "Mediterranean_Chickpea_Salad_4.webp"
         ],
         "steps": [
             "Drain and rinse chickpeas, then place them in a large bowl.",
@@ -651,10 +691,11 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "turkey_swiss_wrap_1.jpg",
-            "turkey_swiss_wrap_2.jpg",
-            "turkey_swiss_wrap_3.jpg",
-            "turkey_swiss_wrap_4.jpg"
+            "Turkey_and_Swiss_Wrap_1.webp",
+            "Turkey_and_Swiss_Wrap_2.webp",
+            "Turkey_and_Swiss_Wrap_3.webp",
+            "Turkey_and_Swiss_Wrap_4.webp",
+            "Turkey_and_Swiss_Wrap_5.webp"
         ],
         "steps": [
             "Lay the tortilla flat on a clean surface.",
@@ -685,15 +726,14 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "butternut_squash_soup_1.jpg",
-            "butternut_squash_soup_2.jpg",
-            "butternut_squash_soup_3.jpg",
-            "butternut_squash_soup_4.jpg",
-            "butternut_squash_soup_5.jpg"
+            "Creamy_Butternut_Squash_Soup_1.webp",
+            "Creamy_Butternut_Squash_Soup_2.webp",
+            "Creamy_Butternut_Squash_Soup_3.webp",
+            "Creamy_Butternut_Squash_Soup_4.webp"
         ],
         "steps": [
             "Peel and cube the butternut squash.",
-            "In a large pot, saut\u00e9 diced onion and garlic in olive oil until soft.",
+            "In a large pot, sauté diced onion and garlic in olive oil until soft.",
             "Add the squash and vegetable broth, then bring to a boil.",
             "Reduce heat and simmer for 20 minutes, or until the squash is tender.",
             "Use an immersion blender to puree the soup until smooth.",
@@ -721,10 +761,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "tuna_salad_wraps_1.jpg",
-            "tuna_salad_wraps_2.jpg",
-            "tuna_salad_wraps_3.jpg",
-            "tuna_salad_wraps_4.jpg"
+            "Tuna_Salad_Lettuce_Wraps_1.webp",
+            "Tuna_Salad_Lettuce_Wraps_2.webp",
+            "Tuna_Salad_Lettuce_Wraps_3.webp",
+            "Tuna_Salad_Lettuce_Wraps_4.webp"
         ],
         "steps": [
             "In a bowl, mix tuna, mayonnaise, diced celery, and a splash of lemon juice.",
@@ -755,15 +795,16 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "lentil_curry_1.jpg",
-            "lentil_curry_2.jpg",
-            "lentil_curry_3.jpg",
-            "lentil_curry_4.jpg",
-            "lentil_curry_5.jpg"
+            "Vegetarian_Lentil_Curry_1.webp",
+            "Vegetarian_Lentil_Curry_2.webp",
+            "Vegetarian_Lentil_Curry_3.webp",
+            "Vegetarian_Lentil_Curry_4.webp",
+            "Vegetarian_Lentil_Curry_5.webp",
+            "Vegetarian_Lentil_Curry_6.webp"
         ],
         "steps": [
             "Rinse lentils under cold water until the water runs clear.",
-            "In a large pot, saut\u00e9 diced onions in oil until golden brown.",
+            "In a large pot, sauté diced onions in oil until golden brown.",
             "Add curry powder and cook for 1 minute to release the aroma.",
             "Stir in chopped tomatoes, lentils, and coconut milk.",
             "Simmer for 20 minutes, stirring occasionally, until the lentils are tender.",
@@ -787,12 +828,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "blt_sandwich_1.jpg",
-            "blt_sandwich_2.jpg",
-            "blt_sandwich_3.jpg",
-            "blt_sandwich_4.jpg",
-            "blt_sandwich_5.jpg",
-            "blt_sandwich_6.jpg"
+            "BLT_Sandwich_1.webp",
+            "BLT_Sandwich_2.webp",
+            "BLT_Sandwich_3.webp",
+            "BLT_Sandwich_4.webp"
         ],
         "steps": [
             "Cook bacon in a skillet over medium heat until crispy, then drain on paper towels.",
@@ -822,15 +861,14 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "spaghetti_bolognese_1.jpg",
-            "spaghetti_bolognese_2.jpg",
-            "spaghetti_bolognese_3.jpg",
-            "spaghetti_bolognese_4.jpg",
-            "spaghetti_bolognese_5.jpg"
+            "Spaghetti_Bolognese_1.webp",
+            "Spaghetti_Bolognese_2.webp",
+            "Spaghetti_Bolognese_3.webp",
+            "Spaghetti_Bolognese_4.webp"
         ],
         "steps": [
             "Cook spaghetti according to package instructions, then drain and set aside.",
-            "Heat olive oil in a large skillet over medium heat. Saut\u00e9 diced onion and minced garlic until soft.",
+            "Heat olive oil in a large skillet over medium heat. Sauté diced onion and minced garlic until soft.",
             "Add ground beef to the skillet and cook until browned, breaking it apart with a wooden spoon.",
             "Stir in tomato sauce, salt, and pepper. Simmer for 20 minutes, stirring occasionally.",
             "Serve the Bolognese sauce over the spaghetti and top with grated parmesan cheese."
@@ -857,10 +895,10 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "grilled_salmon_1.jpg",
-            "grilled_salmon_2.jpg",
-            "grilled_salmon_3.jpg",
-            "grilled_salmon_4.jpg"
+            "Grilled_Salmon_with_Lemon_and_Dill_1.webp",
+            "Grilled_Salmon_with_Lemon_and_Dill_2.webp",
+            "Grilled_Salmon_with_Lemon_and_Dill_3.webp",
+            "Grilled_Salmon_with_Lemon_and_Dill_4.webp"
         ],
         "steps": [
             "Preheat a grill or grill pan to medium-high heat.",
@@ -891,15 +929,15 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "sweet_potato_stew_1.jpg",
-            "sweet_potato_stew_2.jpg",
-            "sweet_potato_stew_3.jpg",
-            "sweet_potato_stew_4.jpg",
-            "sweet_potato_stew_5.jpg"
+            "sweet_potato_stew_1.webp",
+            "sweet_potato_stew_2.webp",
+            "sweet_potato_stew_3.webp",
+            "sweet_potato_stew_4.webp",
+            "sweet_potato_stew_5.webp"
         ],
         "steps": [
             "Peel and cube the sweet potatoes, then set aside.",
-            "In a large pot, saut\u00e9 diced onion, minced garlic, and grated ginger in oil until fragrant.",
+            "In a large pot, sauté diced onion, minced garlic, and grated ginger in oil until fragrant.",
             "Stir in spices such as cumin, turmeric, and paprika, and cook for 1 minute.",
             "Add the sweet potatoes, chickpeas, and coconut milk to the pot. Bring to a simmer.",
             "Cook for 20 minutes, stirring occasionally, until the sweet potatoes are tender.",
@@ -927,16 +965,16 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "chicken_alfredo_1.jpg",
-            "chicken_alfredo_2.jpg",
-            "chicken_alfredo_3.jpg",
-            "chicken_alfredo_4.jpg",
-            "chicken_alfredo_5.jpg"
+            "Chicken_Alfredo_Pasta_1.webp",
+            "Chicken_Alfredo_Pasta_2.webp",
+            "Chicken_Alfredo_Pasta_3.webp",
+            "Chicken_Alfredo_Pasta_4.webp",
+            "Chicken_Alfredo_Pasta_5.webp"
         ],
         "steps": [
             "Cook pasta according to package instructions, then drain and set aside.",
             "Season chicken breasts with salt and pepper, then cook in a skillet with olive oil until golden and cooked through. Slice into strips.",
-            "In a separate pan, melt butter over medium heat and saut\u00e9 minced garlic until fragrant.",
+            "In a separate pan, melt butter over medium heat and sauté minced garlic until fragrant.",
             "Stir in cream and grated parmesan cheese, cooking until the sauce thickens.",
             "Toss the cooked pasta in the Alfredo sauce, then top with sliced chicken.",
             "Serve hot with additional parmesan cheese, if desired."
@@ -960,12 +998,10 @@
         "prep_time": "25 min",
         "difficulty": "Easy",
         "images": [
-            "beef_tacos_1.jpg",
-            "beef_tacos_2.jpg",
-            "beef_tacos_3.jpg",
-            "beef_tacos_4.jpg",
-            "beef_tacos_5.jpg",
-            "beef_tacos_6.jpg"
+            "Beef_Tacos_with_Guacamole_1.webp",
+            "Beef_Tacos_with_Guacamole_2.webp",
+            "Beef_Tacos_with_Guacamole_3.webp",
+            "Beef_Tacos_with_Guacamole_4.webp"
         ],
         "steps": [
             "Cook ground beef in a skillet over medium heat, breaking it apart with a spoon.",
@@ -996,15 +1032,15 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "mushroom_risotto_1.jpg",
-            "mushroom_risotto_2.jpg",
-            "mushroom_risotto_3.jpg",
-            "mushroom_risotto_4.jpg",
-            "mushroom_risotto_5.jpg"
+            "Mushroom_Risotto_1.webp",
+            "Mushroom_Risotto_2.webp",
+            "Mushroom_Risotto_3.webp",
+            "Mushroom_Risotto_4.webp",
+            "Mushroom_Risotto_5.webp"
         ],
         "steps": [
             "Heat chicken broth in a pot and keep warm over low heat.",
-            "In a large skillet, saut\u00e9 diced onion and minced garlic in olive oil until translucent.",
+            "In a large skillet, sauté diced onion and minced garlic in olive oil until translucent.",
             "Add sliced mushrooms and cook until softened, about 5 minutes.",
             "Stir in arborio rice and cook for 2 minutes, ensuring each grain is coated in oil.",
             "Pour in white wine and stir until absorbed.",
@@ -1034,15 +1070,13 @@
         "prep_time": "30 min",
         "difficulty": "Easy",
         "images": [
-            "thai_green_curry_1.jpg",
-            "thai_green_curry_2.jpg",
-            "thai_green_curry_3.jpg",
-            "thai_green_curry_4.jpg",
-            "thai_green_curry_5.jpg",
-            "thai_green_curry_6.jpg"
+            "Thai_Green_Curry_with_Vegetables_1.webp",
+            "Thai_Green_Curry_with_Vegetables_2.webp",
+            "Thai_Green_Curry_with_Vegetables_3.webp",
+            "Thai_Green_Curry_with_Vegetables_4.webp"
         ],
         "steps": [
-            "In a pot, heat a tablespoon of oil and saut\u00e9 green curry paste for 1 minute to release its aroma.",
+            "In a pot, heat a tablespoon of oil and sauté green curry paste for 1 minute to release its aroma.",
             "Add coconut milk and bring to a simmer.",
             "Stir in chopped vegetables such as bell peppers, zucchini, and green beans.",
             "Cook for 10 minutes, or until the vegetables are tender.",
@@ -1071,14 +1105,13 @@
         "prep_time": "50 min",
         "difficulty": "Moderate",
         "images": [
-            "herb_chicken_1.jpg",
-            "herb_chicken_2.jpg",
-            "herb_chicken_3.jpg",
-            "herb_chicken_4.jpg",
-            "herb_chicken_5.jpg"
+            "Roasted_Herb-Crusted_Chicken_1.webp",
+            "Roasted_Herb-Crusted_Chicken_2.webp",
+            "Roasted_Herb-Crusted_Chicken_3.webp",
+            "Roasted_Herb-Crusted_Chicken_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Preheat the oven to 375°F (190°C).",
             "In a small bowl, mix softened butter with minced garlic, chopped herbs (such as rosemary and thyme), salt, and pepper.",
             "Rub the butter mixture under the skin and over the surface of the chicken thighs.",
             "Place the chicken in a baking dish and drizzle with lemon juice.",
@@ -1103,12 +1136,12 @@
         "prep_time": "6 hours (slow cook)",
         "difficulty": "Moderate",
         "images": [
-            "pulled_pork_sandwich_1.jpg",
-            "pulled_pork_sandwich_2.jpg",
-            "pulled_pork_sandwich_3.jpg",
-            "pulled_pork_sandwich_4.jpg",
-            "pulled_pork_sandwich_5.jpg",
-            "pulled_pork_sandwich_6.jpg"
+            "BBQ_Pulled_Pork_Sandwiches_1.webp",
+            "BBQ_Pulled_Pork_Sandwiches_2.webp",
+            "BBQ_Pulled_Pork_Sandwiches_3.webp",
+            "BBQ_Pulled_Pork_Sandwiches_4.webp",
+            "BBQ_Pulled_Pork_Sandwiches_5.webp",
+            "BBQ_Pulled_Pork_Sandwiches_6.webp"
         ],
         "steps": [
             "Season pork shoulder with salt, pepper, and your favorite BBQ rub.",
@@ -1138,14 +1171,13 @@
         "prep_time": "50 min",
         "difficulty": "Moderate",
         "images": [
-            "eggplant_parmesan_1.jpg",
-            "eggplant_parmesan_2.jpg",
-            "eggplant_parmesan_3.jpg",
-            "eggplant_parmesan_4.jpg",
-            "eggplant_parmesan_5.jpg"
+            "Eggplant_Parmesan_1.webp",
+            "Eggplant_Parmesan_2.webp",
+            "Eggplant_Parmesan_3.webp",
+            "Eggplant_Parmesan_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Preheat the oven to 375°F (190°C).",
             "Slice the eggplant into 1/4-inch thick rounds and sprinkle with salt. Let sit for 15 minutes, then pat dry.",
             "Dip each slice into beaten egg, then coat with breadcrumbs mixed with grated parmesan.",
             "Arrange the eggplant slices on a baking sheet and bake for 20 minutes, flipping halfway through.",
@@ -1176,15 +1208,15 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "hummus_pita_chips_1.webp",
-            "hummus_pita_chips_2.webp",
-            "hummus_pita_chips_3.webp",
-            "hummus_pita_chips_4.webp"
+            "Homemade_Hummus_with_Pita_Chips_1.webp",
+            "Homemade_Hummus_with_Pita_Chips_2.webp",
+            "Homemade_Hummus_with_Pita_Chips_3.webp",
+            "Homemade_Hummus_with_Pita_Chips_4.webp"
         ],
         "steps": [
             "In a food processor, combine chickpeas, tahini, lemon juice, minced garlic, and a pinch of salt.",
             "Blend until smooth, adding olive oil gradually for a creamy consistency.",
-            "Cut pita bread into triangles and bake at 375\u00b0F (190\u00b0C) for 10 minutes, or until crispy.",
+            "Cut pita bread into triangles and bake at 375°F (190°C) for 10 minutes, or until crispy.",
             "Serve the hummus with pita chips on the side."
         ]
     },
@@ -1208,11 +1240,12 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "energy_bites_1.webp",
-            "energy_bites_2.webp",
-            "energy_bites_3.webp",
-            "energy_bites_4.webp",
-            "energy_bites_5.webp"
+            "Chocolate_Chip_Energy_Bites_1.webp",
+            "Chocolate_Chip_Energy_Bites_2.webp",
+            "Chocolate_Chip_Energy_Bites_3.webp",
+            "Chocolate_Chip_Energy_Bites_4.webp",
+            "Chocolate_Chip_Energy_Bites_5.webp",
+            "Chocolate_Chip_Energy_Bites_6.webp"
         ],
         "steps": [
             "In a large bowl, combine oats, peanut butter, honey, chocolate chips, and flaxseed.",
@@ -1240,16 +1273,16 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "zucchini_chips_1.webp",
-            "zucchini_chips_2.webp",
-            "zucchini_chips_3.webp",
-            "zucchini_chips_4.webp"
+            "Air-Fried_Zucchini_Chips_1.webp",
+            "Air-Fried_Zucchini_Chips_2.webp",
+            "Air-Fried_Zucchini_Chips_3.webp",
+            "Air-Fried_Zucchini_Chips_4.webp"
         ],
         "steps": [
             "Slice zucchini into thin rounds.",
             "Dip each slice into beaten egg, then coat with a mixture of breadcrumbs and grated parmesan cheese.",
             "Place the slices in a single layer in an air fryer basket and lightly spray with olive oil.",
-            "Air fry at 400\u00b0F (200\u00b0C) for 10-12 minutes, or until golden brown and crispy.",
+            "Air fry at 400°F (200°C) for 10-12 minutes, or until golden brown and crispy.",
             "Serve with a dipping sauce of your choice."
         ]
     },
@@ -1272,10 +1305,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "deviled_eggs_1.webp",
-            "deviled_eggs_2.webp",
-            "deviled_eggs_3.webp",
-            "deviled_eggs_4.webp"
+            "Deviled_Eggs_1.webp",
+            "Deviled_Eggs_2.webp",
+            "Deviled_Eggs_3.webp",
+            "Deviled_Eggs_4.webp"
         ],
         "steps": [
             "Hard boil the eggs, then peel and cut them in half lengthwise.",
@@ -1304,10 +1337,10 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "garlic_popcorn_1.webp",
-            "garlic_popcorn_2.webp",
-            "garlic_popcorn_3.webp",
-            "garlic_popcorn_4.webp"
+            "Garlic_Butter_Popcorn_1.webp",
+            "Garlic_Butter_Popcorn_2.webp",
+            "Garlic_Butter_Popcorn_3.webp",
+            "Garlic_Butter_Popcorn_4.webp"
         ],
         "steps": [
             "Pop the popcorn kernels using an air popper or stovetop method.",
@@ -1336,14 +1369,13 @@
         "prep_time": "35 min",
         "difficulty": "Moderate",
         "images": [
-            "chocolate_brownies_1.jpg",
-            "chocolate_brownies_2.jpg",
-            "chocolate_brownies_3.jpg",
-            "chocolate_brownies_4.jpg",
-            "chocolate_brownies_5.jpg"
+            "Chocolate_Fudge_Brownies_1.webp",
+            "Chocolate_Fudge_Brownies_2.webp",
+            "Chocolate_Fudge_Brownies_3.webp",
+            "Chocolate_Fudge_Brownies_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 350\u00b0F (175\u00b0C) and grease a square baking pan.",
+            "Preheat the oven to 350°F (175°C) and grease a square baking pan.",
             "Melt butter in a saucepan over low heat, then stir in sugar and cocoa powder.",
             "Remove from heat and whisk in eggs and vanilla extract.",
             "Gently fold in flour until just combined.",
@@ -1372,14 +1404,13 @@
         "prep_time": "1 hr",
         "difficulty": "Moderate",
         "images": [
-            "apple_pie_1.jpg",
-            "apple_pie_2.jpg",
-            "apple_pie_3.jpg",
-            "apple_pie_4.jpg",
-            "apple_pie_5.jpg"
+            "Classic_Apple_Pie_1.webp",
+            "Classic_Apple_Pie_2.webp",
+            "Classic_Apple_Pie_3.webp",
+            "Classic_Apple_Pie_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Preheat the oven to 375°F (190°C).",
             "Peel, core, and slice the apples, then toss them with sugar, cinnamon, and lemon juice.",
             "Roll out one pie crust and fit it into a pie dish.",
             "Fill the crust with the apple mixture and dot with small pieces of butter.",
@@ -1408,13 +1439,13 @@
         "prep_time": "45 min",
         "difficulty": "Moderate",
         "images": [
-            "lemon_cheesecake_bars_1.jpg",
-            "lemon_cheesecake_bars_2.jpg",
-            "lemon_cheesecake_bars_3.jpg",
-            "lemon_cheesecake_bars_4.jpg"
+            "Lemon_Cheesecake_Bars_1.webp",
+            "Lemon_Cheesecake_Bars_2.webp",
+            "Lemon_Cheesecake_Bars_3.webp",
+            "Lemon_Cheesecake_Bars_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 325\u00b0F (165\u00b0C) and line a baking dish with parchment paper.",
+            "Preheat the oven to 325°F (165°C) and line a baking dish with parchment paper.",
             "Crush graham crackers into fine crumbs and mix with melted butter and sugar to form a crust.",
             "Press the crust mixture into the bottom of the prepared baking dish and bake for 10 minutes.",
             "In a large bowl, beat cream cheese, sugar, eggs, lemon zest, and lemon juice until smooth.",
@@ -1443,11 +1474,10 @@
         "prep_time": "6 hrs (including chilling)",
         "difficulty": "Moderate",
         "images": [
-            "tiramisu_1.jpg",
-            "tiramisu_2.jpg",
-            "tiramisu_3.jpg",
-            "tiramisu_4.jpg",
-            "tiramisu_5.jpg"
+            "Tiramisu_1.webp",
+            "Tiramisu_2.webp",
+            "Tiramisu_3.webp",
+            "Tiramisu_4.webp"
         ],
         "steps": [
             "Brew strong coffee and let it cool completely.",
@@ -1478,10 +1508,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "chocolate_mousse_1.jpg",
-            "chocolate_mousse_2.jpg",
-            "chocolate_mousse_3.jpg",
-            "chocolate_mousse_4.jpg"
+            "Vegan_Chocolate_Avocado_Mousse_1.webp",
+            "Vegan_Chocolate_Avocado_Mousse_2.webp",
+            "Vegan_Chocolate_Avocado_Mousse_3.webp",
+            "Vegan_Chocolate_Avocado_Mousse_4.webp"
         ],
         "steps": [
             "In a blender, combine ripe avocado, cocoa powder, maple syrup, almond milk, and vanilla extract.",
@@ -1509,11 +1539,10 @@
         "prep_time": "30 min",
         "difficulty": "Easy",
         "images": [
-            "strawberry_shortcake_1.jpg",
-            "strawberry_shortcake_2.jpg",
-            "strawberry_shortcake_3.jpg",
-            "strawberry_shortcake_4.jpg",
-            "strawberry_shortcake_5.jpg"
+            "Strawberry_Shortcake_1.webp",
+            "Strawberry_Shortcake_2.webp",
+            "Strawberry_Shortcake_3.webp",
+            "Strawberry_Shortcake_4.webp"
         ],
         "steps": [
             "Slice strawberries and mix with sugar. Let sit for 15 minutes to macerate.",
@@ -1543,11 +1572,10 @@
         "prep_time": "4 hrs (including chilling)",
         "difficulty": "Moderate",
         "images": [
-            "panna_cotta_1.jpg",
-            "panna_cotta_2.jpg",
-            "panna_cotta_3.jpg",
-            "panna_cotta_4.jpg",
-            "panna_cotta_5.jpg"
+            "Panna_Cotta_with_Berry_Sauce_1.webp",
+            "Panna_Cotta_with_Berry_Sauce_2.webp",
+            "Panna_Cotta_with_Berry_Sauce_3.webp",
+            "Panna_Cotta_with_Berry_Sauce_4.webp"
         ],
         "steps": [
             "In a small saucepan, sprinkle gelatin over cold water and let sit for 5 minutes.",
@@ -1579,14 +1607,13 @@
         "prep_time": "25 min",
         "difficulty": "Moderate",
         "images": [
-            "lava_cake_1.jpg",
-            "lava_cake_2.jpg",
-            "lava_cake_3.jpg",
-            "lava_cake_4.jpg",
-            "lava_cake_5.jpg"
+            "Molten_Chocolate_Lava_Cake_1.webp",
+            "Molten_Chocolate_Lava_Cake_2.webp",
+            "Molten_Chocolate_Lava_Cake_3.webp",
+            "Molten_Chocolate_Lava_Cake_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 425\u00b0F (220\u00b0C) and grease ramekins generously with butter.",
+            "Preheat the oven to 425°F (220°C) and grease ramekins generously with butter.",
             "Melt dark chocolate and butter together in a double boiler, stirring until smooth.",
             "In a bowl, whisk eggs and sugar until pale and thick, then fold in the chocolate mixture.",
             "Gently fold in flour and vanilla extract until just combined.",
@@ -1613,14 +1640,13 @@
         "prep_time": "1 hr (including chilling)",
         "difficulty": "Moderate",
         "images": [
-            "creme_brulee_1.jpg",
-            "creme_brulee_2.jpg",
-            "creme_brulee_3.jpg",
-            "creme_brulee_4.jpg",
-            "creme_brulee_5.jpg"
+            "Classic_Creme_Brulee_1.webp",
+            "Classic_Creme_Brulee_2.webp",
+            "Classic_Creme_Brulee_3.webp",
+            "Classic_Creme_Brulee_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 325\u00b0F (165\u00b0C).",
+            "Preheat the oven to 325°F (165°C).",
             "In a saucepan, heat cream and vanilla over medium heat until just simmering.",
             "In a bowl, whisk egg yolks and sugar until pale, then slowly whisk in the warm cream.",
             "Strain the mixture into ramekins and place them in a baking dish.",
@@ -1648,11 +1674,10 @@
         "prep_time": "1 hr (including chilling)",
         "difficulty": "Easy",
         "images": [
-            "peanut_butter_bars_1.jpg",
-            "peanut_butter_bars_2.jpg",
-            "peanut_butter_bars_3.jpg",
-            "peanut_butter_bars_4.jpg",
-            "peanut_butter_bars_5.jpg"
+            "No-Bake_Peanut_Butter_Bars_1.webp",
+            "No-Bake_Peanut_Butter_Bars_2.webp",
+            "No-Bake_Peanut_Butter_Bars_3.webp",
+            "No-Bake_Peanut_Butter_Bars_4.webp"
         ],
         "steps": [
             "In a bowl, mix peanut butter, melted butter, graham cracker crumbs, and powdered sugar until combined.",
@@ -1680,10 +1705,14 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "classic_lemonade_1.webp",
-            "classic_lemonade_2.webp",
-            "classic_lemonade_3.webp",
-            "classic_lemonade_4.webp"
+            "Classic_Lemonade_1.webp",
+            "Classic_Lemonade_2.webp",
+            "Classic_Lemonade_3.webp",
+            "Classic_Lemonade_4.webp",
+            "Classic_Lemonade_5.webp",
+            "Classic_Lemonade_6.webp",
+            "Classic_Lemonade_7.webp",
+            "Classic_Lemonade_8.webp"
         ],
         "steps": [
             "Juice the lemons and strain the juice to remove seeds.",
@@ -1711,10 +1740,12 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "iced_coffee_1.webp",
-            "iced_coffee_2.webp",
-            "iced_coffee_3.webp",
-            "iced_coffee_4.webp"
+            "Iced_Coffee_1.webp",
+            "Iced_Coffee_2.webp",
+            "Iced_Coffee_3.webp",
+            "Iced_Coffee_4.webp",
+            "Iced_Coffee_5.webp",
+            "Iced_Coffee_6.webp"
         ],
         "steps": [
             "Brew a strong cup of coffee and let it cool to room temperature.",
@@ -1743,10 +1774,10 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "berry_smoothie_1.webp",
-            "berry_smoothie_2.webp",
-            "berry_smoothie_3.webp",
-            "berry_smoothie_4.webp"
+            "Berry_Smoothie_1.webp",
+            "Berry_Smoothie_2.webp",
+            "Berry_Smoothie_3.webp",
+            "Berry_Smoothie_4.webp"
         ],
         "steps": [
             "Add mixed berries, banana, yogurt, milk, and honey to a blender.",
@@ -1775,10 +1806,10 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "hot_chocolate_1.webp",
-            "hot_chocolate_2.webp",
-            "hot_chocolate_3.webp",
-            "hot_chocolate_4.webp"
+            "Hot_Chocolate_1.webp",
+            "Hot_Chocolate_2.webp",
+            "Hot_Chocolate_3.webp",
+            "Hot_Chocolate_4.webp"
         ],
         "steps": [
             "In a small saucepan, heat milk over medium heat until steaming.",
@@ -1807,10 +1838,9 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "mojito_mocktail_1.webp",
-            "mojito_mocktail_2.webp",
-            "mojito_mocktail_3.webp",
-            "mojito_mocktail_4.webp"
+            "Mojito_Mocktail_2.webp",
+            "Mojito_Mocktail_3.webp",
+            "Mojito_Mocktail_4.webp"
         ],
         "steps": [
             "In a glass, muddle mint leaves, lime juice, and sugar until fragrant.",
@@ -1840,10 +1870,10 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "grilled_vegetable_skewers_1.webp",
-            "grilled_vegetable_skewers_2.webp",
-            "grilled_vegetable_skewers_3.webp",
-            "grilled_vegetable_skewers_4.webp"
+            "Grilled_Vegetable_Skewers_1.webp",
+            "Grilled_Vegetable_Skewers_2.webp",
+            "Grilled_Vegetable_Skewers_3.webp",
+            "Grilled_Vegetable_Skewers_4.webp"
         ],
         "steps": [
             "Preheat the grill to medium-high heat.",
@@ -1874,10 +1904,11 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "caprese_salad_1.webp",
-            "caprese_salad_2.webp",
-            "caprese_salad_3.webp",
-            "caprese_salad_4.webp"
+            "Caprese_Salad_1.webp",
+            "Caprese_Salad_2.webp",
+            "Caprese_Salad_3.webp",
+            "Caprese_Salad_4.webp",
+            "Caprese_Salad_5.webp"
         ],
         "steps": [
             "Slice tomatoes and fresh mozzarella into even rounds.",
@@ -1906,10 +1937,11 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "watermelon_feta_salad_1.webp",
-            "watermelon_feta_salad_2.webp",
-            "watermelon_feta_salad_3.webp",
-            "watermelon_feta_salad_4.webp"
+            "Watermelon_Feta_Salad_1.webp",
+            "Watermelon_Feta_Salad_2.webp",
+            "Watermelon_Feta_Salad_3.webp",
+            "Watermelon_Feta_Salad_4.webp",
+            "Watermelon_Feta_Salad_5.webp"
         ],
         "steps": [
             "Cut the watermelon into bite-sized cubes and place in a large bowl.",
@@ -1939,10 +1971,10 @@
         "prep_time": "20 min",
         "difficulty": "Moderate",
         "images": [
-            "grilled_shrimp_tacos_1.webp",
-            "grilled_shrimp_tacos_2.webp",
-            "grilled_shrimp_tacos_3.webp",
-            "grilled_shrimp_tacos_4.webp"
+            "Grilled_Shrimp_Tacos_1.webp",
+            "Grilled_Shrimp_Tacos_2.webp",
+            "Grilled_Shrimp_Tacos_3.webp",
+            "Grilled_Shrimp_Tacos_4.webp"
         ],
         "steps": [
             "Preheat the grill to medium-high heat and skewer the shrimp.",
@@ -1972,10 +2004,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "peach_iced_tea_1.webp",
-            "peach_iced_tea_2.webp",
-            "peach_iced_tea_3.webp",
-            "peach_iced_tea_4.webp"
+            "Peach_Iced_Tea_1.webp",
+            "Peach_Iced_Tea_2.webp",
+            "Peach_Iced_Tea_3.webp",
+            "Peach_Iced_Tea_4.webp"
         ],
         "steps": [
             "Peel and slice peaches, then puree them in a blender until smooth.",
@@ -2003,15 +2035,17 @@
         "prep_time": "2 hrs",
         "difficulty": "Moderate",
         "images": [
-            "hearty_beef_stew_1.webp",
-            "hearty_beef_stew_2.webp",
-            "hearty_beef_stew_3.webp",
-            "hearty_beef_stew_4.webp"
+            "Hearty_Beef_Stew_1.webp",
+            "Hearty_Beef_Stew_2.webp",
+            "Hearty_Beef_Stew_3.webp",
+            "Hearty_Beef_Stew_4.webp",
+            "Hearty_Beef_Stew_5.webp",
+            "Hearty_Beef_Stew_6.webp"
         ],
         "steps": [
             "Cut the beef into bite-sized pieces and season with salt and pepper.",
             "In a large pot, heat oil and sear the beef until browned on all sides, then remove from the pot.",
-            "Saut\u00e9 diced onion, carrots, and celery in the same pot until softened.",
+            "Sauté diced onion, carrots, and celery in the same pot until softened.",
             "Stir in tomato paste and cook for 1 minute.",
             "Return the beef to the pot and add beef broth and cubed potatoes.",
             "Bring to a boil, then reduce heat and simmer for 1.5 hours, or until the beef is tender.",
@@ -2039,13 +2073,14 @@
         "prep_time": "30 min",
         "difficulty": "Easy",
         "images": [
-            "creamy_tomato_soup_1.webp",
-            "creamy_tomato_soup_2.webp",
-            "creamy_tomato_soup_3.webp",
-            "creamy_tomato_soup_4.webp"
+            "Creamy_Tomato_Soup_1.webp",
+            "Creamy_Tomato_Soup_2.webp",
+            "Creamy_Tomato_Soup_3.webp",
+            "Creamy_Tomato_Soup_4.webp",
+            "Creamy_Tomato_Soup_5.webp"
         ],
         "steps": [
-            "In a large pot, saut\u00e9 diced onion and minced garlic in olive oil until soft.",
+            "In a large pot, sauté diced onion and minced garlic in olive oil until soft.",
             "Add chopped tomatoes and cook for 10 minutes, stirring occasionally.",
             "Pour in vegetable broth and simmer for another 10 minutes.",
             "Blend the soup until smooth using an immersion blender.",
@@ -2074,14 +2109,14 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "butternut_squash_risotto_1.webp",
-            "butternut_squash_risotto_2.webp",
-            "butternut_squash_risotto_3.webp",
-            "butternut_squash_risotto_4.webp"
+            "Butternut_Squash_Risotto_1.webp",
+            "Butternut_Squash_Risotto_2.webp",
+            "Butternut_Squash_Risotto_3.webp",
+            "Butternut_Squash_Risotto_4.webp"
         ],
         "steps": [
-            "Peel and cube the butternut squash, then roast in the oven at 400\u00b0F (200\u00b0C) for 20 minutes, or until tender.",
-            "In a large skillet, saut\u00e9 diced onion and minced garlic in olive oil until soft.",
+            "Peel and cube the butternut squash, then roast in the oven at 400°F (200°C) for 20 minutes, or until tender.",
+            "In a large skillet, sauté diced onion and minced garlic in olive oil until soft.",
             "Stir in arborio rice and cook for 2 minutes, ensuring each grain is coated in oil.",
             "Add a ladle of warm vegetable broth to the skillet and stir until absorbed.",
             "Continue adding broth, one ladle at a time, until the rice is tender and creamy, about 20 minutes.",
@@ -2107,13 +2142,13 @@
         "prep_time": "1 hr",
         "difficulty": "Moderate",
         "images": [
-            "shepherds_pie_1.webp",
-            "shepherds_pie_2.webp",
-            "shepherds_pie_3.webp",
-            "shepherds_pie_4.webp"
+            "Shepherd's_Pie_1.webp",
+            "Shepherd's_Pie_2.webp",
+            "Shepherd's_Pie_3.webp",
+            "Shepherd's_Pie_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Preheat the oven to 375°F (190°C).",
             "In a skillet, cook ground beef with diced onion until browned. Drain excess fat.",
             "Stir in chopped carrots, peas, and prepared gravy. Simmer for 10 minutes.",
             "Spread the beef mixture evenly in a baking dish and top with a thick layer of mashed potatoes.",
@@ -2141,10 +2176,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "hot_spiced_cider_1.webp",
-            "hot_spiced_cider_2.webp",
-            "hot_spiced_cider_3.webp",
-            "hot_spiced_cider_4.webp"
+            "Hot_Spiced_Apple_Cider_1.webp",
+            "Hot_Spiced_Apple_Cider_2.webp",
+            "Hot_Spiced_Apple_Cider_3.webp",
+            "Hot_Spiced_Apple_Cider_4.webp"
         ],
         "steps": [
             "In a large pot, combine apple cider, cinnamon sticks, cloves, and orange slices.",
@@ -2175,10 +2210,14 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "spring_vegetable_stir_fry_1.webp",
-            "spring_vegetable_stir_fry_2.webp",
-            "spring_vegetable_stir_fry_3.webp",
-            "spring_vegetable_stir_fry_4.webp"
+            "Spring_Vegetable_Stir-Fry_1.webp",
+            "Spring_Vegetable_Stir-Fry_2.webp",
+            "Spring_Vegetable_Stir-Fry_3.webp",
+            "Spring_Vegetable_Stir-Fry_4.webp",
+            "Spring_Vegetable_Stir-Fry_5.webp",
+            "Spring_Vegetable_Stir-Fry_6.webp",
+            "Spring_Vegetable_Stir-Fry_7.webp",
+            "Spring_Vegetable_Stir-Fry_8.webp"
         ],
         "steps": [
             "Heat sesame oil in a large skillet or wok over medium-high heat.",
@@ -2210,13 +2249,13 @@
         "prep_time": "30 min",
         "difficulty": "Easy",
         "images": [
-            "pea_mint_soup_1.webp",
-            "pea_mint_soup_2.webp",
-            "pea_mint_soup_3.webp",
-            "pea_mint_soup_4.webp"
+            "Pea_and_Mint_Soup_1.webp",
+            "Pea_and_Mint_Soup_2.webp",
+            "Pea_and_Mint_Soup_3.webp",
+            "Pea_and_Mint_Soup_4.webp"
         ],
         "steps": [
-            "In a large pot, saut\u00e9 diced onion and minced garlic in olive oil until softened.",
+            "In a large pot, sauté diced onion and minced garlic in olive oil until softened.",
             "Add peas and vegetable broth, and simmer for 10 minutes.",
             "Blend the soup until smooth using an immersion blender.",
             "Stir in chopped fresh mint leaves and a splash of cream.",
@@ -2243,10 +2282,10 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "strawberry_spinach_salad_1.webp",
-            "strawberry_spinach_salad_2.webp",
-            "strawberry_spinach_salad_3.webp",
-            "strawberry_spinach_salad_4.webp"
+            "Strawberry_Spinach_Salad_1.webp",
+            "Strawberry_Spinach_Salad_2.webp",
+            "Strawberry_Spinach_Salad_3.webp",
+            "Strawberry_Spinach_Salad_4.webp"
         ],
         "steps": [
             "In a large bowl, combine fresh spinach leaves, sliced strawberries, crumbled feta cheese, and chopped walnuts.",
@@ -2275,13 +2314,13 @@
         "prep_time": "30 min",
         "difficulty": "Easy",
         "images": [
-            "lemon_herb_chicken_1.webp",
-            "lemon_herb_chicken_2.webp",
-            "lemon_herb_chicken_3.webp",
-            "lemon_herb_chicken_4.webp"
+            "Lemon_Herb_Chicken_1.webp",
+            "Lemon_Herb_Chicken_2.webp",
+            "Lemon_Herb_Chicken_3.webp",
+            "Lemon_Herb_Chicken_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Preheat the oven to 375°F (190°C).",
             "In a small bowl, mix olive oil, minced garlic, lemon juice, and chopped herbs (thyme and rosemary).",
             "Season chicken breasts with salt and pepper, then brush with the herb mixture.",
             "Place the chicken in a baking dish and bake for 25-30 minutes, or until cooked through.",
@@ -2308,13 +2347,13 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "asparagus_goat_cheese_tart_1.webp",
-            "asparagus_goat_cheese_tart_2.webp",
-            "asparagus_goat_cheese_tart_3.webp",
-            "asparagus_goat_cheese_tart_4.webp"
+            "Asparagus_and_Goat_Cheese_Tart_1.webp",
+            "Asparagus_and_Goat_Cheese_Tart_2.webp",
+            "Asparagus_and_Goat_Cheese_Tart_3.webp",
+            "Asparagus_and_Goat_Cheese_Tart_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 400\u00b0F (200\u00b0C).",
+            "Preheat the oven to 400°F (200°C).",
             "Roll out the puff pastry onto a baking sheet and prick the center with a fork to prevent puffing.",
             "Spread goat cheese evenly over the pastry, leaving a 1-inch border around the edges.",
             "Arrange asparagus spears on top of the goat cheese and sprinkle with grated parmesan and chopped herbs.",
@@ -2343,14 +2382,14 @@
         "prep_time": "30 min",
         "difficulty": "Easy",
         "images": [
-            "pumpkin_soup_1.webp",
-            "pumpkin_soup_2.webp",
-            "pumpkin_soup_3.webp",
-            "pumpkin_soup_4.webp"
+            "Pumpkin_Soup_1.webp",
+            "Pumpkin_Soup_2.webp",
+            "Pumpkin_Soup_3.webp",
+            "Pumpkin_Soup_4.webp"
         ],
         "steps": [
             "Peel and cube the pumpkin, then set aside.",
-            "In a large pot, saut\u00e9 diced onion and minced garlic in olive oil until softened.",
+            "In a large pot, sauté diced onion and minced garlic in olive oil until softened.",
             "Add the pumpkin cubes and vegetable broth, then bring to a boil.",
             "Reduce heat and simmer for 20 minutes, or until the pumpkin is tender.",
             "Blend the soup until smooth using an immersion blender.",
@@ -2377,13 +2416,17 @@
         "prep_time": "25 min",
         "difficulty": "Easy",
         "images": [
-            "maple_roasted_brussels_sprouts_1.webp",
-            "maple_roasted_brussels_sprouts_2.webp",
-            "maple_roasted_brussels_sprouts_3.webp",
-            "maple_roasted_brussels_sprouts_4.webp"
+            "Maple_Roasted_Brussels_Sprouts_1.webp",
+            "Maple_Roasted_Brussels_Sprouts_2.webp",
+            "Maple_Roasted_Brussels_Sprouts_3.webp",
+            "Maple_Roasted_Brussels_Sprouts_4.webp",
+            "Maple_Roasted_Brussels_Sprouts_5.webp",
+            "Maple_Roasted_Brussels_Sprouts_6.webp",
+            "Maple_Roasted_Brussels_Sprouts_7.webp",
+            "Maple_Roasted_Brussels_Sprouts_8.webp"
         ],
         "steps": [
-            "Preheat the oven to 400\u00b0F (200\u00b0C).",
+            "Preheat the oven to 400°F (200°C).",
             "Trim and halve the brussels sprouts, then toss with olive oil, maple syrup, salt, and pepper.",
             "Spread the brussels sprouts in a single layer on a baking sheet.",
             "Roast for 20 minutes, stirring halfway through, until caramelized and tender.",
@@ -2410,13 +2453,13 @@
         "prep_time": "45 min",
         "difficulty": "Moderate",
         "images": [
-            "apple_crisp_1.webp",
-            "apple_crisp_2.webp",
-            "apple_crisp_3.webp",
-            "apple_crisp_4.webp"
+            "Apple_Crisp_1.webp",
+            "Apple_Crisp_2.webp",
+            "Apple_Crisp_3.webp",
+            "Apple_Crisp_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Preheat the oven to 375°F (190°C).",
             "Peel and slice the apples, then place them in a baking dish.",
             "In a bowl, mix oats, brown sugar, flour, cinnamon, and softened butter until crumbly.",
             "Sprinkle the mixture evenly over the apples.",
@@ -2443,13 +2486,13 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "butternut_squash_pasta_1.webp",
-            "butternut_squash_pasta_2.webp",
-            "butternut_squash_pasta_3.webp",
-            "butternut_squash_pasta_4.webp"
+            "Butternut_Squash_and_Sage_Pasta_1.webp",
+            "Butternut_Squash_and_Sage_Pasta_2.webp",
+            "Butternut_Squash_and_Sage_Pasta_3.webp",
+            "Butternut_Squash_and_Sage_Pasta_4.webp"
         ],
         "steps": [
-            "Peel and cube the butternut squash, then roast in the oven at 400\u00b0F (200\u00b0C) for 20 minutes, or until tender.",
+            "Peel and cube the butternut squash, then roast in the oven at 400°F (200°C) for 20 minutes, or until tender.",
             "Cook pasta according to package instructions, then drain and set aside.",
             "In a large skillet, melt butter and fry fresh sage leaves until crispy. Remove and set aside.",
             "Add the roasted squash to the skillet and mash slightly to create a sauce-like consistency.",
@@ -2477,10 +2520,11 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "spiced_pear_walnut_salad_1.webp",
-            "spiced_pear_walnut_salad_2.webp",
-            "spiced_pear_walnut_salad_3.webp",
-            "spiced_pear_walnut_salad_4.webp"
+            "Spiced_Pear_and_Walnut_Salad_1.webp",
+            "Spiced_Pear_and_Walnut_Salad_2.webp",
+            "Spiced_Pear_and_Walnut_Salad_3.webp",
+            "Spiced_Pear_and_Walnut_Salad_4.webp",
+            "Spiced_Pear_and_Walnut_Salad_5.webp"
         ],
         "steps": [
             "Slice the pears thinly and place them in a large salad bowl with fresh spinach.",
@@ -2510,10 +2554,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "bruschetta_1.webp",
-            "bruschetta_2.webp",
-            "bruschetta_3.webp",
-            "bruschetta_4.webp"
+            "Bruschetta_with_Tomato_and_Basil_1.webp",
+            "Bruschetta_with_Tomato_and_Basil_2.webp",
+            "Bruschetta_with_Tomato_and_Basil_3.webp",
+            "Bruschetta_with_Tomato_and_Basil_4.webp"
         ],
         "steps": [
             "Slice the baguette into thin rounds and toast until golden brown.",
@@ -2542,16 +2586,16 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "stuffed_mushrooms_1.webp",
-            "stuffed_mushrooms_2.webp",
-            "stuffed_mushrooms_3.webp",
-            "stuffed_mushrooms_4.webp"
+            "Stuffed_Mushrooms_1.webp",
+            "Stuffed_Mushrooms_2.webp",
+            "Stuffed_Mushrooms_3.webp",
+            "Stuffed_Mushrooms_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Preheat the oven to 375°F (190°C).",
             "Remove the stems from the mushrooms and chop them finely.",
-            "In a skillet, saut\u00e9 the chopped stems with minced garlic until softened.",
-            "Mix the saut\u00e9ed stems with cream cheese, parmesan cheese, breadcrumbs, and parsley.",
+            "In a skillet, sauté the chopped stems with minced garlic until softened.",
+            "Mix the sautéed stems with cream cheese, parmesan cheese, breadcrumbs, and parsley.",
             "Fill the mushroom caps with the mixture and place them on a baking sheet.",
             "Bake for 20 minutes, or until the tops are golden brown."
         ]
@@ -2576,10 +2620,10 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "caprese_skewers_1.webp",
-            "caprese_skewers_2.webp",
-            "caprese_skewers_3.webp",
-            "caprese_skewers_4.webp"
+            "Caprese_Skewers_1.webp",
+            "Caprese_Skewers_2.webp",
+            "Caprese_Skewers_3.webp",
+            "Caprese_Skewers_4.webp"
         ],
         "steps": [
             "On small skewers, thread a cherry tomato, a basil leaf, and a mozzarella ball.",
@@ -2607,10 +2651,10 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "deviled_eggs_bacon_1.webp",
-            "deviled_eggs_bacon_2.webp",
-            "deviled_eggs_bacon_3.webp",
-            "deviled_eggs_bacon_4.webp"
+            "Deviled_Eggs_with_Bacon_1.webp",
+            "Deviled_Eggs_with_Bacon_2.webp",
+            "Deviled_Eggs_with_Bacon_3.webp",
+            "Deviled_Eggs_with_Bacon_4.webp"
         ],
         "steps": [
             "Hard boil the eggs, then peel and cut them in half lengthwise.",
@@ -2641,13 +2685,15 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "spinach_artichoke_dip_1.webp",
-            "spinach_artichoke_dip_2.webp",
-            "spinach_artichoke_dip_3.webp",
-            "spinach_artichoke_dip_4.webp"
+            "Spinach_and_Artichoke_Dip_1.webp",
+            "Spinach_and_Artichoke_Dip_2.webp",
+            "Spinach_and_Artichoke_Dip_3.webp",
+            "Spinach_and_Artichoke_Dip_4.webp",
+            "Spinach_and_Artichoke_Dip_5.webp",
+            "Spinach_and_Artichoke_Dip_6.webp"
         ],
         "steps": [
-            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Preheat the oven to 375°F (190°C).",
             "In a bowl, mix chopped spinach, artichokes, cream cheese, sour cream, grated parmesan cheese, and minced garlic.",
             "Transfer the mixture to a baking dish and spread evenly.",
             "Bake for 20 minutes, or until bubbly and golden on top.",
