@@ -161,3 +161,16 @@ async function loadSeasonalSection() {
 }
 
 loadSeasonalSection();
+
+
+async function getRecipeName(recipeID) {
+  let response = await fetch("recipes.json");
+  let recipes = await response.json();
+return recipes.find(function(r) { return r.id === recipeID; });
+}
+ 
+async function shareTwitter(recipeID) {
+  let recipe = await getRecipeName(recipeID);
+  let text = encodeURIComponent(`Look at this delicious food that a dog made: ${recipe.name}`);
+  window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+}
