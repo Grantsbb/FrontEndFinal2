@@ -126,7 +126,7 @@ async function loadSeasonalSection() {
   } catch (e) { return; }
 
   const recipe = recipes.find(r => r.season === season);
-  const image = recipe && recipe.images && recipe.images[0] ? `images/${recipe.images[0]}` : '';
+  const image = recipe && recipe.images && recipe.images[0] ? `dataset/image_files/${recipe.images[0]}` : '';
   const imgTag = image ? `<a href="${pages[season]}"><img src="${image}" class="img-fluid" alt="${recipe.name}"></a>` : '';
 
   container.innerHTML = `
