@@ -72,7 +72,7 @@ async function loadSeasonalPage() {
   }
 
   container.innerHTML = sorted.map(recipe => {
-    const image = recipe.images && recipe.images[0] ? `images/${recipe.images[0]}` : '';
+    const image = recipe.images && recipe.images[0] ? `dataset/image_files/${recipe.images[0]}` : '';
     const imgTag = image ? `<img src="${image}" class="card-img-top" alt="${recipe.name}">` : '';
     return `
       <div class="col-md-4">
