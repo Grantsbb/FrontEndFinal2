@@ -68,7 +68,7 @@ async function loadRecipeOfTheDay() {
   }
 
   const image = recipe.images && recipe.images[0]
-    ? `images/${recipe.images[0]}`
+    ? `dataset/image_files/${recipe.images[0]}`
     : '';
 
   const detailUrl = `recipe-detail.html?id=${recipe.id}`;
