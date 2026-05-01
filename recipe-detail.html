@@ -130,14 +130,50 @@
     <div class="container my-3">
     <input class="form-control form-control-sm w-25" type="text" placeholder="Multiply here" aria-label=".form-control-sm example">
     </div>
+    <div style="display:flex; align-items:center; gap:10px;">                                                  
+    <div class="switch">                                                                                     
+      <input type="checkbox" id="interactivechecklist" checked>                                                      
+      <label class="slider round" for="interactivechecklist"></label>
+    </div>
+    <span>Interactive Checklist</span>
+  </div>
+    
     <h2>Instructions</h2>
     <ol>${stepsList}</ol>
     <a href="javascript:history.back()" class="btn">Back</a>
   `;
       }
 
-      async function multstep() {
+      
+      
+      async function rendermultchecklist() {
         await loadRecipeDetail();
+        document.querySelectorAll('#ingredients-list li').forEach(li => {
+      const label = document.createElement('label');
+      label.textContent = li.textContent;
+       const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      li.textContent = '';
+      li.appendChild(checkbox);
+      li.appendChild(label);
+      })
+      document.querySelector('#interactivechecklist').addEventListener('change', function () {                   
+    if (this.checked) {                                                                                      
+      document.querySelectorAll('#ingredients-list li').forEach(li => {                                      
+        const label = document.createElement('label');                                                       
+        label.textContent = li.dataset.original;                                                             
+        const checkbox = document.createElement('input');                                                    
+        checkbox.type = 'checkbox';                                                                          
+        li.textContent = '';                                                                                 
+        li.appendChild(checkbox);                           
+        li.appendChild(label);
+      });
+    } else {
+      document.querySelectorAll('#ingredients-list li').forEach(li => {
+        li.textContent = li.dataset.original;
+      });
+    }
+  });
 
         document.querySelectorAll('#ingredients-list li').forEach(li => {
           li.dataset.original = li.textContent;
@@ -147,15 +183,15 @@
           const mult = parseFloat(this.value);
           document.querySelectorAll('#ingredients-list li').forEach(li => {
             if (!isNaN(mult) && mult > 0) {
-              li.textContent = li.dataset.original.replace(/^\d+\.?\d*/, n => +(parseFloat(n) * mult).toFixed(2));
+              li.querySelector('label').textContent = li.dataset.original.replace(/^\d+\.?\d*/, n => +(parseFloat(n) * mult).toFixed(2));
             } else {
-              li.textContent = li.dataset.original;
+              li.querySelector('label').textContent = li.dataset.original;
             }
           });
         });
       }
 
-      multstep();
+      rendermultchecklist();
 
 
     </script>
