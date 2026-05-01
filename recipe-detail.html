@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         const list = loadShoppingList();
         items.forEach(item => {
-          if (!list.find(e => e.text === item.text)) list.push(item);
+        list.push(item);
         });
         saveShoppingList(list);
         section.style.display = '';
