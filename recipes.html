@@ -71,6 +71,32 @@
     <select id="filterCuisine" class="form-select w-auto">
       <option value="">All Cuisines</option>
     </select>
+ 
+<div class="d-flex flex-wrap gap-2 mt-2 align-items-center">
+  <label class="me-1">Sort by:</label>
+  <select id="sortBy" class="form-select w-auto">
+    <option value="">None</option>
+    <option value="name">Name (A–Z)</option>
+    <option value="difficulty">Difficulty</option>
+    <option value="prep_time">Prep Time</option>
+  </select>
+
+  <label class="ms-3 me-1">Dietary:</label>
+  <select id="filterDietary" class="form-select w-auto">
+    <option value="">Any</option>
+    <option value="Vegetarian">Vegetarian</option>
+    <option value="Vegan">Vegan</option>
+    <option value="Gluten-Free">Gluten-Free</option>
+    <option value="High-Protein">High-Protein</option>
+  </select>
+
+  <label class="ms-3 me-1">Difficulty:</label>
+  <select id="filterDifficulty" class="form-select w-auto">
+    <option value="">Any</option>
+    <option value="Easy">Easy</option>
+    <option value="Moderate">Moderate</option>
+  </select>
+</div>
   </div>
 </div>
 
@@ -131,13 +157,23 @@ function renderCards(recipes) {
   }).join('');
 }
 
+const DIFFICULTY_ORDER = { 'Easy': 1, 'Moderate': 2, 'Hard': 3 };
+
+function parsePrepMinutes(prepStr) {
+  const match = prepStr.match(/(\d+)/);
+  return match ? parseInt(match[1]) : 999;
+}
+
 function applyFilters() {
   const query = document.getElementById('searchBar').value.toLowerCase();
   const season = document.getElementById('filterSeason').value;
   const category = document.getElementById('filterCategory').value;
   const cuisine = document.getElementById('filterCuisine').value;
+  const dietary = document.getElementById('filterDietary').value;
+  const difficulty = document.getElementById('filterDifficulty').value;
+  const sortBy = document.getElementById('sortBy').value;
 
-  const filtered = allRecipes.filter(recipe => {
+  let filtered = allRecipes.filter(recipe => {
     const nameMatch = recipe.name.toLowerCase().includes(query);
     const ingredientMatch = recipe.ingredients.some(i => i.toLowerCase().includes(query));
     const textMatch = nameMatch || ingredientMatch;
@@ -145,9 +181,19 @@ function applyFilters() {
     const seasonMatch = !season || recipe.season === season || recipe.season === 'All';
     const categoryMatch = !category || recipe.category === category;
     const cuisineMatch = !cuisine || recipe.cuisine === cuisine;
+    const dietaryMatch = !dietary || (recipe.dietary && recipe.dietary.includes(dietary));
+    const difficultyMatch = !difficulty || recipe.difficulty === difficulty;
 
-    return textMatch && seasonMatch && categoryMatch && cuisineMatch;
+    return textMatch && seasonMatch && categoryMatch && cuisineMatch && dietaryMatch && difficultyMatch;
   });
+
+  if (sortBy === 'name') {
+    filtered.sort((a, b) => a.name.localeCompare(b.name));
+  } else if (sortBy === 'difficulty') {
+    filtered.sort((a, b) => (DIFFICULTY_ORDER[a.difficulty] || 9) - (DIFFICULTY_ORDER[b.difficulty] || 9));
+  } else if (sortBy === 'prep_time') {
+    filtered.sort((a, b) => parsePrepMinutes(a.prep_time) - parsePrepMinutes(b.prep_time));
+  }
 
   renderCards(filtered);
 }
