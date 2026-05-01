@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
         const saveddarklightmode = localStorage.getItem('theme');
     const lightdarkmode = document.getElementById('lightdarkmode');
+document.getElementById('filterDietary').addEventListener('change', applyFilters);
+document.getElementById('filterDifficulty').addEventListener('change', applyFilters);
+document.getElementById('sortBy').addEventListener('change', applyFilters);
 lightdarkmode.addEventListener('change', function() {
     if (this.checked){
       applyTheme('dark');
