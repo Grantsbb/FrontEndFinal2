@@ -119,6 +119,139 @@
 </section>
 
  <script src="script.js"></script>
+
+  <!-- Onboarding Tutorial Modal -->
+<div id="tutorial-overlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:10000;">
+  <div id="tutorial-box" style="
+    position:absolute;
+    background:var(--color-primary);
+    border-radius:10px;
+    padding:20px 24px;
+    max-width:320px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.4);
+    font-family:'Kalam',sans-serif;
+  ">
+    <h3 id="tutorial-title" style="margin:0 0 10px;font-family:'Tangerine',sans-serif;font-size:2rem;"></h3>
+    <p id="tutorial-body" style="font-size:1.1rem; margin-bottom:16px;"></p>
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <span id="tutorial-step-label" style="font-size:0.85rem; opacity:0.7;"></span>
+      <div style="display:flex; gap:8px;">
+        <button id="tutorial-skip" class="btn" style="font-size:0.85rem; padding:4px 12px;">Skip</button>
+        <button id="tutorial-next" class="btn" style="font-size:0.85rem; padding:4px 12px;">Next</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const tutorialSteps = [
+  {
+    title: "Welcome to Nano's Bytes Monthly!",
+    body: "This quick tour will show you around. It only takes a moment!",
+    target: null
+  },
+  {
+    title: "Browse Recipes",
+    body: "Click 'Recipes' in the navbar to see all recipes. You can search by name or ingredient, and filter by season, cuisine, difficulty, and more.",
+    target: '.navbar-nav .nav-item:nth-child(2) a'
+  },
+  {
+    title: "Save Your Favorites",
+    body: "On any recipe card, click the heart icon to save it. Visit 'Favorites' anytime to find your saved recipes.",
+    target: '.navbar-nav .nav-item:nth-child(3) a'
+  },
+  {
+    title: "Recipe of the Day",
+    body: "The home page shows a new recipe each day specifically selected by Nano himself!",
+    target: '#recipe-of-the-day-section'
+  },
+  {
+    title: "Cooking Timer",
+    body: "The timer in the top-right corner persists across pages. Set it while you cook!",
+    target: '#cooking-timer'
+  },
+  {
+    title: "You're all set!",
+    body: "Enjoy Nano's Bytes Monthly. Remember to give all mortal possesions to Nano!",
+    target: null
+  }
+];
+
+let tutorialIndex = 0;
+const overlay = document.getElementById('tutorial-overlay');
+const box = document.getElementById('tutorial-box');
+
+function positionBox(targetSelector) {
+  box.style.top = '50%';
+  box.style.left = '50%';
+  box.style.transform = 'translate(-50%, -50%)';
+
+  if (!targetSelector) return;
+  const el = document.querySelector(targetSelector);
+  if (!el) return;
+
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  const rect = el.getBoundingClientRect();
+  const boxH = 180;
+  const boxW = 320;
+  const margin = 12;
+
+  let top = rect.bottom + margin;
+  let left = rect.left;
+
+  if (top + boxH > window.innerHeight) top = rect.top - boxH - margin;
+  if (left + boxW > window.innerWidth) left = window.innerWidth - boxW - margin;
+  if (left < margin) left = margin;
+  if (top < margin) top = margin;
+
+  box.style.top = top + 'px';
+  box.style.left = left + 'px';
+  box.style.transform = 'none';
+
+  document.querySelectorAll('.tutorial-highlight').forEach(e => e.classList.remove('tutorial-highlight'));
+  el.classList.add('tutorial-highlight');
+}
+
+function showTutorialStep(index) {
+  const step = tutorialSteps[index];
+  document.getElementById('tutorial-title').textContent = step.title;
+  document.getElementById('tutorial-body').textContent = step.body;
+  document.getElementById('tutorial-step-label').textContent = `Step ${index + 1} of ${tutorialSteps.length}`;
+  document.getElementById('tutorial-next').textContent = index === tutorialSteps.length - 1 ? 'Done' : 'Next';
+  positionBox(step.target);
+}
+
+function endTutorial() {
+  overlay.style.display = 'none';
+  document.querySelectorAll('.tutorial-highlight').forEach(e => e.classList.remove('tutorial-highlight'));
+  localStorage.setItem('tutorialDone', 'true');
+}
+
+document.getElementById('tutorial-next').addEventListener('click', () => {
+  tutorialIndex++;
+  if (tutorialIndex >= tutorialSteps.length) {
+    endTutorial();
+  } else {
+    showTutorialStep(tutorialIndex);
+  }
+});
+
+document.getElementById('tutorial-skip').addEventListener('click', endTutorial);
+
+if (!localStorage.getItem('tutorialDone')) {
+  overlay.style.display = '';
+  showTutorialStep(0);
+}
+</script>
+
+<style>
+.tutorial-highlight {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 4px;
+  border-radius: 4px;
+  transition: outline 0.2s;
+}
+</style>
 </body>
 
 <footer class="text-center py-3">
