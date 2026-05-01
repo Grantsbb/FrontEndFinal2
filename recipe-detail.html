@@ -125,14 +125,39 @@
       <li><strong>Difficulty:</strong> ${recipe.difficulty}</li>
     </ul>
     <h2>Ingredients</h2>
-    <ul>${ingredientsList}</ul>
+    <ul id="ingredients-list">${ingredientsList}</ul>
+
+    <div class="container my-3">
+    <input class="form-control form-control-sm w-25" type="text" placeholder="Multiply here" aria-label=".form-control-sm example">
+    </div>
     <h2>Instructions</h2>
     <ol>${stepsList}</ol>
     <a href="javascript:history.back()" class="btn">Back</a>
   `;
       }
 
-      loadRecipeDetail();
+      async function multstep() {
+        await loadRecipeDetail();
+
+        document.querySelectorAll('#ingredients-list li').forEach(li => {
+          li.dataset.original = li.textContent;
+        });
+
+        document.querySelector('.form-control-sm').addEventListener('input', function () {
+          const mult = parseFloat(this.value);
+          document.querySelectorAll('#ingredients-list li').forEach(li => {
+            if (!isNaN(mult) && mult > 0) {
+              li.textContent = li.dataset.original.replace(/^\d+\.?\d*/, n => +(parseFloat(n) * mult).toFixed(2));
+            } else {
+              li.textContent = li.dataset.original;
+            }
+          });
+        });
+      }
+
+      multstep();
+
+
     </script>
      &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<button onclick="shareTwitter(1)">Share on the bird app!</button>
   </body>

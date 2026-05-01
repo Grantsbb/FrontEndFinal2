@@ -4,11 +4,11 @@
         "name": "Classic Pancakes",
         "category": "Breakfast",
         "ingredients": [
-            "flour",
-            "milk",
-            "eggs",
-            "sugar",
-            "baking powder"
+            "1 cup of flour",
+            "1 cup of milk",
+            "2 eggs",
+            "0.25 cup of sugar",
+            "1 tsp of baking powder"
         ],
         "dietary": [
             "Vegetarian"
@@ -40,11 +40,11 @@
         "name": "Spinach and Feta Omelette",
         "category": "Breakfast",
         "ingredients": [
-            "eggs",
-            "spinach",
-            "feta cheese",
-            "salt",
-            "pepper"
+            "2 eggs",
+            "1 cup of spinach",
+            "0.25 cup of feta cheese",
+            "1 tsp of salt",
+            "0.5 tsp of pepper"
         ],
         "dietary": [
             "Vegetarian"
@@ -62,7 +62,7 @@
         "steps": [
             "In a small bowl, whisk eggs with a pinch of salt and pepper.",
             "Heat a non-stick skillet over medium heat and add a small amount of olive oil.",
-            "Add spinach to the skillet and sauté until wilted, about 2 minutes.",
+            "Add spinach to the skillet and saut\u00c3\u00a9 until wilted, about 2 minutes.",
             "Pour the whisked eggs over the spinach, tilting the skillet to spread evenly.",
             "Crumble feta cheese over one side of the omelette.",
             "Cook until the eggs are mostly set, about 3-4 minutes.",
@@ -76,11 +76,11 @@
         "name": "Banana Oatmeal Smoothie",
         "category": "Breakfast",
         "ingredients": [
-            "banana",
-            "oats",
-            "milk",
-            "honey",
-            "vanilla"
+            "1 banana",
+            "0.75 cup of oats",
+            "1 cup of milk",
+            "1 tbsp of honey",
+            "1 tsp of vanilla"
         ],
         "dietary": [
             "Vegetarian",
@@ -110,11 +110,11 @@
         "name": "Avocado Toast with Poached Egg",
         "category": "Breakfast",
         "ingredients": [
-            "bread",
-            "avocado",
-            "eggs",
-            "salt",
-            "pepper"
+            "2 slices of bread",
+            "1 avocado",
+            "2 eggs",
+            "1 tsp of salt",
+            "0.5 tsp of pepper"
         ],
         "dietary": [
             "Vegetarian"
@@ -151,11 +151,11 @@
         "name": "Blueberry Muffins",
         "category": "Breakfast",
         "ingredients": [
-            "flour",
-            "blueberries",
-            "milk",
-            "eggs",
-            "baking powder"
+            "1 cup of flour",
+            "0.75 cup of blueberries",
+            "1 cup of milk",
+            "2 eggs",
+            "1 tsp of baking powder"
         ],
         "dietary": [
             "Vegetarian"
@@ -171,7 +171,7 @@
             "Blueberry_Muffins_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C) and grease a muffin tin or line with paper liners.",
+            "Preheat the oven to 375\u00c2\u00b0F (190\u00c2\u00b0C) and grease a muffin tin or line with paper liners.",
             "In a mixing bowl, combine flour, sugar, baking powder, and a pinch of salt.",
             "In a separate bowl, whisk together milk, eggs, and melted butter.",
             "Gradually add the wet ingredients to the dry ingredients, stirring until just combined.",
@@ -188,11 +188,11 @@
         "name": "French Toast with Maple Syrup",
         "category": "Breakfast",
         "ingredients": [
-            "bread",
-            "eggs",
-            "milk",
-            "vanilla",
-            "cinnamon"
+            "2 slices of bread",
+            "2 eggs",
+            "1 cup of milk",
+            "1 tsp of vanilla",
+            "1 tsp of cinnamon"
         ],
         "dietary": [
             "Vegetarian"
@@ -221,10 +221,10 @@
         "name": "Greek Yogurt Parfait with Granola and Berries",
         "category": "Breakfast",
         "ingredients": [
-            "Greek yogurt",
-            "granola",
-            "berries",
-            "honey"
+            "0.5 cup of Greek yogurt",
+            "0.5 cup of granola",
+            "1 cup of berries",
+            "1 tbsp of honey"
         ],
         "dietary": [
             "Vegetarian",
@@ -252,11 +252,11 @@
         "name": "Breakfast Burrito with Scrambled Eggs and Salsa",
         "category": "Breakfast",
         "ingredients": [
-            "tortilla",
-            "eggs",
-            "cheese",
-            "salsa",
-            "bell peppers"
+            "2 tortillas",
+            "2 eggs",
+            "0.5 cup of cheese",
+            "0.5 cup of salsa",
+            "2 bell peppers"
         ],
         "dietary": [
             "Vegetarian"
@@ -276,7 +276,7 @@
             "Heat a skillet over medium heat and lightly grease with butter or oil.",
             "Scramble the eggs until cooked, about 3 minutes.",
             "Warm the tortilla in the skillet for 1-2 minutes.",
-            "Fill the tortilla with scrambled eggs, cheese, salsa, and sautéed bell peppers.",
+            "Fill the tortilla with scrambled eggs, cheese, salsa, and saut\u00c3\u00a9ed bell peppers.",
             "Roll the tortilla tightly and serve warm."
         ],
         "date": "05-01-26"
@@ -286,11 +286,11 @@
         "name": "Vegan Tofu Scramble",
         "category": "Breakfast",
         "ingredients": [
-            "tofu",
-            "turmeric",
-            "bell peppers",
-            "onions",
-            "spinach"
+            "0.5 block of tofu",
+            "0.5 tsp of turmeric",
+            "2 bell peppers",
+            "2 onions",
+            "1 cup of spinach"
         ],
         "dietary": [
             "Vegan",
@@ -309,7 +309,7 @@
         "steps": [
             "Heat oil in a skillet over medium heat.",
             "Crumble tofu into the skillet and sprinkle with turmeric.",
-            "Add diced bell peppers and onions, and sauté for 5 minutes.",
+            "Add diced bell peppers and onions, and saut\u00c3\u00a9 for 5 minutes.",
             "Stir in spinach and cook until wilted.",
             "Season with salt and pepper, and serve."
         ],
@@ -320,11 +320,11 @@
         "name": "Sausage and Egg Breakfast Casserole",
         "category": "Breakfast",
         "ingredients": [
-            "sausage",
-            "eggs",
-            "milk",
-            "bread",
-            "cheese"
+            "2 sausages",
+            "2 eggs",
+            "1 cup of milk",
+            "2 slices of bread",
+            "0.5 cup of cheese"
         ],
         "dietary": [],
         "season": "All",
@@ -338,7 +338,7 @@
             "Sausage_and_Egg_Breakfast_Casserole_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C) and grease a baking dish.",
+            "Preheat the oven to 375\u00c2\u00b0F (190\u00c2\u00b0C) and grease a baking dish.",
             "Cook sausage in a skillet over medium heat until browned, then set aside.",
             "In a large bowl, whisk together eggs, milk, salt, and pepper.",
             "Layer bread cubes in the greased baking dish, followed by cooked sausage and shredded cheese.",
@@ -353,10 +353,10 @@
         "name": "Peanut Butter and Banana Toast",
         "category": "Breakfast",
         "ingredients": [
-            "bread",
-            "peanut butter",
-            "banana",
-            "honey"
+            "2 slices of bread",
+            "2 tbsp of peanut butter",
+            "1 banana",
+            "1 tbsp of honey"
         ],
         "dietary": [
             "Vegetarian"
@@ -385,11 +385,11 @@
         "name": "Scrambled Eggs with Smoked Salmon",
         "category": "Breakfast",
         "ingredients": [
-            "eggs",
-            "milk",
-            "butter",
-            "smoked salmon",
-            "chives"
+            "2 eggs",
+            "1 cup of milk",
+            "2 tbsp of butter",
+            "2 oz of smoked salmon",
+            "1 tbsp of chives"
         ],
         "dietary": [
             "High-Protein"
@@ -419,11 +419,11 @@
         "name": "Sweet Potato Hash with Eggs",
         "category": "Breakfast",
         "ingredients": [
-            "sweet potato",
-            "onions",
-            "bell peppers",
-            "eggs",
-            "olive oil"
+            "1 sweet potato",
+            "2 onions",
+            "2 bell peppers",
+            "2 eggs",
+            "2 tbsp of olive oil"
         ],
         "dietary": [
             "Vegetarian",
@@ -455,11 +455,11 @@
         "name": "Overnight Chia Pudding",
         "category": "Breakfast",
         "ingredients": [
-            "chia seeds",
-            "milk",
-            "vanilla",
-            "honey",
-            "berries"
+            "2 tbsp of chia seeds",
+            "1 cup of milk",
+            "1 tsp of vanilla",
+            "1 tbsp of honey",
+            "1 cup of berries"
         ],
         "dietary": [
             "Vegetarian",
@@ -489,11 +489,11 @@
         "name": "Apple Cinnamon Oatmeal",
         "category": "Breakfast",
         "ingredients": [
-            "oats",
-            "milk",
-            "apple",
-            "cinnamon",
-            "brown sugar"
+            "0.75 cup of oats",
+            "1 cup of milk",
+            "2 apples",
+            "1 tsp of cinnamon",
+            "0.25 cup of brown sugar"
         ],
         "dietary": [
             "Vegetarian"
@@ -522,11 +522,11 @@
         "name": "Grilled Chicken Caesar Salad",
         "category": "Lunch",
         "ingredients": [
-            "chicken breast",
-            "romaine lettuce",
-            "parmesan cheese",
-            "croutons",
-            "caesar dressing"
+            "1 chicken breast",
+            "2 leaves of romaine lettuce",
+            "0.25 cup of parmesan cheese",
+            "0.5 cup of croutons",
+            "2 tbsp of caesar dressing"
         ],
         "dietary": [
             "High-Protein"
@@ -557,12 +557,12 @@
         "name": "Quinoa and Black Bean Bowl",
         "category": "Lunch",
         "ingredients": [
-            "quinoa",
-            "black beans",
-            "corn",
-            "avocado",
-            "lime",
-            "cilantro"
+            "1 cup of quinoa",
+            "8 oz of black beans",
+            "1 cup of corn",
+            "1 avocado",
+            "1 lime",
+            "2 tbsp of cilantro"
         ],
         "dietary": [
             "Vegan",
@@ -592,11 +592,11 @@
         "name": "Caprese Sandwich with Pesto",
         "category": "Lunch",
         "ingredients": [
-            "bread",
-            "fresh mozzarella",
-            "tomatoes",
-            "basil pesto",
-            "olive oil"
+            "2 slices of bread",
+            "4 slices of fresh mozzarella",
+            "2 tomatoes",
+            "2 tbsp of basil pesto",
+            "2 tbsp of olive oil"
         ],
         "dietary": [
             "Vegetarian"
@@ -626,12 +626,12 @@
         "name": "Tomato Basil Soup with Grilled Cheese",
         "category": "Lunch",
         "ingredients": [
-            "tomatoes",
-            "onion",
-            "garlic",
-            "basil",
-            "bread",
-            "cheese"
+            "2 tomatoes",
+            "1 onion",
+            "2 cloves of garlic",
+            "2 tbsp of basil",
+            "2 slices of bread",
+            "0.5 cup of cheese"
         ],
         "dietary": [
             "Vegetarian"
@@ -646,7 +646,7 @@
             "Tomato_Basil_Soup_with_Grilled_Cheese_3.webp"
         ],
         "steps": [
-            "Heat olive oil in a large pot over medium heat and sauté diced onions and garlic until soft.",
+            "Heat olive oil in a large pot over medium heat and saut\u00c3\u00a9 diced onions and garlic until soft.",
             "Add chopped tomatoes and cook for 10 minutes, stirring occasionally.",
             "Add vegetable broth and fresh basil, then simmer for another 15 minutes.",
             "Use an immersion blender to puree the soup until smooth.",
@@ -661,12 +661,12 @@
         "name": "Mediterranean Chickpea Salad",
         "category": "Lunch",
         "ingredients": [
-            "chickpeas",
-            "cucumber",
-            "cherry tomatoes",
-            "feta cheese",
-            "red onion",
-            "lemon"
+            "0.75 cup of chickpeas",
+            "0.5 cucumber",
+            "0.5 cup of cherry tomatoes",
+            "0.25 cup of feta cheese",
+            "1 red onion",
+            "1 lemon"
         ],
         "dietary": [
             "Vegetarian",
@@ -696,12 +696,12 @@
         "name": "Turkey and Swiss Wrap",
         "category": "Lunch",
         "ingredients": [
-            "tortilla",
-            "turkey slices",
-            "swiss cheese",
-            "lettuce",
-            "mayonnaise",
-            "mustard"
+            "2 tortillas",
+            "3 slices of turkey",
+            "3 slices of swiss cheese",
+            "2 leaves of lettuce",
+            "1.5 tbsp of mayonnaise",
+            "1 tbsp of mustard"
         ],
         "dietary": [
             "High-Protein"
@@ -731,12 +731,12 @@
         "name": "Creamy Butternut Squash Soup",
         "category": "Lunch",
         "ingredients": [
-            "butternut squash",
-            "onion",
-            "garlic",
-            "vegetable broth",
-            "cream",
-            "nutmeg"
+            "1 cup of butternut squash",
+            "1 onion",
+            "2 cloves of garlic",
+            "8 oz of vegetable broth",
+            "0.5 cup of cream",
+            "0.5 tsp of nutmeg"
         ],
         "dietary": [
             "Vegetarian",
@@ -754,7 +754,7 @@
         ],
         "steps": [
             "Peel and cube the butternut squash.",
-            "In a large pot, sauté diced onion and garlic in olive oil until soft.",
+            "In a large pot, saut\u00c3\u00a9 diced onion and garlic in olive oil until soft.",
             "Add the squash and vegetable broth, then bring to a boil.",
             "Reduce heat and simmer for 20 minutes, or until the squash is tender.",
             "Use an immersion blender to puree the soup until smooth.",
@@ -768,11 +768,11 @@
         "name": "Tuna Salad Lettuce Wraps",
         "category": "Lunch",
         "ingredients": [
-            "tuna",
-            "mayonnaise",
-            "celery",
-            "lettuce leaves",
-            "lemon juice"
+            "1 can of tuna",
+            "1.5 tbsp of mayonnaise",
+            "2 stalks of celery",
+            "3 lettuce leaves",
+            "2 tbsp of lemon juice"
         ],
         "dietary": [
             "High-Protein",
@@ -802,12 +802,12 @@
         "name": "Vegetarian Lentil Curry",
         "category": "Lunch",
         "ingredients": [
-            "lentils",
-            "coconut milk",
-            "onions",
-            "tomatoes",
-            "curry powder",
-            "cilantro"
+            "1 cup of lentils",
+            "1 cup of coconut milk",
+            "2 onions",
+            "2 tomatoes",
+            "1 tbsp of curry powder",
+            "2 tbsp of cilantro"
         ],
         "dietary": [
             "Vegan",
@@ -827,7 +827,7 @@
         ],
         "steps": [
             "Rinse lentils under cold water until the water runs clear.",
-            "In a large pot, sauté diced onions in oil until golden brown.",
+            "In a large pot, saut\u00c3\u00a9 diced onions in oil until golden brown.",
             "Add curry powder and cook for 1 minute to release the aroma.",
             "Stir in chopped tomatoes, lentils, and coconut milk.",
             "Simmer for 20 minutes, stirring occasionally, until the lentils are tender.",
@@ -840,11 +840,11 @@
         "name": "BLT Sandwich",
         "category": "Lunch",
         "ingredients": [
-            "bread",
-            "bacon",
-            "lettuce",
-            "tomatoes",
-            "mayonnaise"
+            "2 slices of bread",
+            "3 slices of bacon",
+            "2 leaves of lettuce",
+            "2 tomatoes",
+            "1.5 tbsp of mayonnaise"
         ],
         "dietary": [],
         "season": "All",
@@ -872,13 +872,13 @@
         "name": "Spaghetti Bolognese",
         "category": "Dinner",
         "ingredients": [
-            "spaghetti",
-            "ground beef",
-            "tomato sauce",
-            "onion",
-            "garlic",
-            "olive oil",
-            "parmesan cheese"
+            "1 cup of spaghetti",
+            "0.5 lb of ground beef",
+            "0.5 cup of tomato sauce",
+            "1 onion",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil",
+            "0.25 cup of parmesan cheese"
         ],
         "dietary": [],
         "season": "All",
@@ -893,7 +893,7 @@
         ],
         "steps": [
             "Cook spaghetti according to package instructions, then drain and set aside.",
-            "Heat olive oil in a large skillet over medium heat. Sauté diced onion and minced garlic until soft.",
+            "Heat olive oil in a large skillet over medium heat. Saut\u00c3\u00a9 diced onion and minced garlic until soft.",
             "Add ground beef to the skillet and cook until browned, breaking it apart with a wooden spoon.",
             "Stir in tomato sauce, salt, and pepper. Simmer for 20 minutes, stirring occasionally.",
             "Serve the Bolognese sauce over the spaghetti and top with grated parmesan cheese."
@@ -905,12 +905,12 @@
         "name": "Grilled Salmon with Lemon and Dill",
         "category": "Dinner",
         "ingredients": [
-            "salmon fillets",
-            "lemon",
-            "dill",
-            "olive oil",
-            "salt",
-            "pepper"
+            "1 salmon fillet",
+            "1 lemon",
+            "1 tsp of dill",
+            "2 tbsp of olive oil",
+            "1 tsp of salt",
+            "0.5 tsp of pepper"
         ],
         "dietary": [
             "High-Protein",
@@ -939,13 +939,13 @@
         "name": "Vegan Sweet Potato and Chickpea Stew",
         "category": "Dinner",
         "ingredients": [
-            "sweet potatoes",
-            "chickpeas",
-            "coconut milk",
-            "onion",
-            "garlic",
-            "ginger",
-            "spices"
+            "2 sweet potatoes",
+            "0.75 cup of chickpeas",
+            "1 cup of coconut milk",
+            "1 onion",
+            "2 cloves of garlic",
+            "1 tsp of ginger",
+            "1 tsp of spices"
         ],
         "dietary": [
             "Vegan",
@@ -964,7 +964,7 @@
         ],
         "steps": [
             "Peel and cube the sweet potatoes, then set aside.",
-            "In a large pot, sauté diced onion, minced garlic, and grated ginger in oil until fragrant.",
+            "In a large pot, saut\u00c3\u00a9 diced onion, minced garlic, and grated ginger in oil until fragrant.",
             "Stir in spices such as cumin, turmeric, and paprika, and cook for 1 minute.",
             "Add the sweet potatoes, chickpeas, and coconut milk to the pot. Bring to a simmer.",
             "Cook for 20 minutes, stirring occasionally, until the sweet potatoes are tender.",
@@ -977,13 +977,13 @@
         "name": "Chicken Alfredo Pasta",
         "category": "Dinner",
         "ingredients": [
-            "pasta",
-            "chicken breast",
-            "butter",
-            "cream",
-            "parmesan cheese",
-            "garlic",
-            "olive oil"
+            "1 cup of pasta",
+            "1 chicken breast",
+            "2 tbsp of butter",
+            "0.5 cup of cream",
+            "0.25 cup of parmesan cheese",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil"
         ],
         "dietary": [
             "High-Protein"
@@ -1002,7 +1002,7 @@
         "steps": [
             "Cook pasta according to package instructions, then drain and set aside.",
             "Season chicken breasts with salt and pepper, then cook in a skillet with olive oil until golden and cooked through. Slice into strips.",
-            "In a separate pan, melt butter over medium heat and sauté minced garlic until fragrant.",
+            "In a separate pan, melt butter over medium heat and saut\u00c3\u00a9 minced garlic until fragrant.",
             "Stir in cream and grated parmesan cheese, cooking until the sauce thickens.",
             "Toss the cooked pasta in the Alfredo sauce, then top with sliced chicken.",
             "Serve hot with additional parmesan cheese, if desired."
@@ -1014,12 +1014,12 @@
         "name": "Beef Tacos with Guacamole",
         "category": "Dinner",
         "ingredients": [
-            "ground beef",
-            "taco seasoning",
-            "taco shells",
-            "lettuce",
-            "cheese",
-            "guacamole"
+            "0.5 lb of ground beef",
+            "1 tbsp of taco seasoning",
+            "2 taco shells",
+            "2 leaves of lettuce",
+            "0.5 cup of cheese",
+            "0.25 cup of guacamole"
         ],
         "dietary": [],
         "season": "All",
@@ -1046,13 +1046,13 @@
         "name": "Mushroom Risotto",
         "category": "Dinner",
         "ingredients": [
-            "arborio rice",
-            "mushrooms",
-            "onion",
-            "garlic",
-            "parmesan cheese",
-            "chicken broth",
-            "white wine"
+            "1 cup of arborio rice",
+            "1 cup of mushrooms",
+            "1 onion",
+            "2 cloves of garlic",
+            "0.25 cup of parmesan cheese",
+            "8 oz of chicken broth",
+            "3 oz of white wine"
         ],
         "dietary": [
             "Vegetarian"
@@ -1070,7 +1070,7 @@
         ],
         "steps": [
             "Heat chicken broth in a pot and keep warm over low heat.",
-            "In a large skillet, sauté diced onion and minced garlic in olive oil until translucent.",
+            "In a large skillet, saut\u00c3\u00a9 diced onion and minced garlic in olive oil until translucent.",
             "Add sliced mushrooms and cook until softened, about 5 minutes.",
             "Stir in arborio rice and cook for 2 minutes, ensuring each grain is coated in oil.",
             "Pour in white wine and stir until absorbed.",
@@ -1085,12 +1085,12 @@
         "name": "Thai Green Curry with Vegetables",
         "category": "Dinner",
         "ingredients": [
-            "green curry paste",
-            "coconut milk",
-            "vegetables",
-            "tofu",
-            "basil",
-            "lime"
+            "1 tbsp of green curry paste",
+            "1 cup of coconut milk",
+            "1 cup of vegetables",
+            "0.5 block of tofu",
+            "2 tbsp of basil",
+            "1 lime"
         ],
         "dietary": [
             "Vegan",
@@ -1107,7 +1107,7 @@
             "Thai_Green_Curry_with_Vegetables_4.webp"
         ],
         "steps": [
-            "In a pot, heat a tablespoon of oil and sauté green curry paste for 1 minute to release its aroma.",
+            "In a pot, heat a tablespoon of oil and saut\u00c3\u00a9 green curry paste for 1 minute to release its aroma.",
             "Add coconut milk and bring to a simmer.",
             "Stir in chopped vegetables such as bell peppers, zucchini, and green beans.",
             "Cook for 10 minutes, or until the vegetables are tender.",
@@ -1122,11 +1122,11 @@
         "name": "Roasted Herb-Crusted Chicken",
         "category": "Dinner",
         "ingredients": [
-            "chicken thighs",
-            "herbs",
-            "garlic",
-            "butter",
-            "lemon"
+            "2 chicken thighs",
+            "2 tbsp of herbs",
+            "2 cloves of garlic",
+            "2 tbsp of butter",
+            "1 lemon"
         ],
         "dietary": [
             "High-Protein",
@@ -1143,7 +1143,7 @@
             "Roasted_Herb-Crusted_Chicken_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C).",
+            "Preheat the oven to 375\u00c2\u00b0F (190\u00c2\u00b0C).",
             "In a small bowl, mix softened butter with minced garlic, chopped herbs (such as rosemary and thyme), salt, and pepper.",
             "Rub the butter mixture under the skin and over the surface of the chicken thighs.",
             "Place the chicken in a baking dish and drizzle with lemon juice.",
@@ -1157,11 +1157,11 @@
         "name": "BBQ Pulled Pork Sandwiches",
         "category": "Dinner",
         "ingredients": [
-            "pork shoulder",
-            "BBQ sauce",
-            "buns",
-            "coleslaw",
-            "apple cider vinegar"
+            "1 lb of pork shoulder",
+            "2 tbsp of BBQ sauce",
+            "2 buns",
+            "1 cup of coleslaw",
+            "1 tbsp of apple cider vinegar"
         ],
         "dietary": [],
         "season": "All",
@@ -1190,12 +1190,12 @@
         "name": "Eggplant Parmesan",
         "category": "Dinner",
         "ingredients": [
-            "eggplant",
-            "breadcrumbs",
-            "parmesan cheese",
-            "tomato sauce",
-            "mozzarella",
-            "basil"
+            "1 eggplant",
+            "0.5 cup of breadcrumbs",
+            "0.25 cup of parmesan cheese",
+            "0.5 cup of tomato sauce",
+            "4 slices of mozzarella",
+            "2 tbsp of basil"
         ],
         "dietary": [
             "Vegetarian"
@@ -1211,7 +1211,7 @@
             "Eggplant_Parmesan_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C).",
+            "Preheat the oven to 375\u00c2\u00b0F (190\u00c2\u00b0C).",
             "Slice the eggplant into 1/4-inch thick rounds and sprinkle with salt. Let sit for 15 minutes, then pat dry.",
             "Dip each slice into beaten egg, then coat with breadcrumbs mixed with grated parmesan.",
             "Arrange the eggplant slices on a baking sheet and bake for 20 minutes, flipping halfway through.",
@@ -1227,12 +1227,12 @@
         "name": "Homemade Hummus with Pita Chips",
         "category": "Snacks",
         "ingredients": [
-            "chickpeas",
-            "tahini",
-            "lemon juice",
-            "garlic",
-            "olive oil",
-            "pita bread"
+            "0.75 cup of chickpeas",
+            "1 tbsp of tahini",
+            "2 tbsp of lemon juice",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil",
+            "2 pieces of pita bread"
         ],
         "dietary": [
             "Vegan",
@@ -1251,7 +1251,7 @@
         "steps": [
             "In a food processor, combine chickpeas, tahini, lemon juice, minced garlic, and a pinch of salt.",
             "Blend until smooth, adding olive oil gradually for a creamy consistency.",
-            "Cut pita bread into triangles and bake at 375°F (190°C) for 10 minutes, or until crispy.",
+            "Cut pita bread into triangles and bake at 375\u00c2\u00b0F (190\u00c2\u00b0C) for 10 minutes, or until crispy.",
             "Serve the hummus with pita chips on the side."
         ],
         "date": "09-08-26"
@@ -1261,11 +1261,11 @@
         "name": "Chocolate Chip Energy Bites",
         "category": "Snacks",
         "ingredients": [
-            "oats",
-            "peanut butter",
-            "honey",
-            "chocolate chips",
-            "flaxseed"
+            "0.75 cup of oats",
+            "2 tbsp of peanut butter",
+            "1 tbsp of honey",
+            "0.5 cup of chocolate chips",
+            "1 tbsp of flaxseed"
         ],
         "dietary": [
             "Vegetarian",
@@ -1296,10 +1296,10 @@
         "name": "Air-Fried Zucchini Chips",
         "category": "Snacks",
         "ingredients": [
-            "zucchini",
-            "breadcrumbs",
-            "parmesan cheese",
-            "egg",
+            "1 zucchini",
+            "0.5 cup of breadcrumbs",
+            "0.25 cup of parmesan cheese",
+            "1 egg",
             "olive oil spray"
         ],
         "dietary": [
@@ -1319,7 +1319,7 @@
             "Slice zucchini into thin rounds.",
             "Dip each slice into beaten egg, then coat with a mixture of breadcrumbs and grated parmesan cheese.",
             "Place the slices in a single layer in an air fryer basket and lightly spray with olive oil.",
-            "Air fry at 400°F (200°C) for 10-12 minutes, or until golden brown and crispy.",
+            "Air fry at 400\u00c2\u00b0F (200\u00c2\u00b0C) for 10-12 minutes, or until golden brown and crispy.",
             "Serve with a dipping sauce of your choice."
         ],
         "date": "09-21-26"
@@ -1329,10 +1329,10 @@
         "name": "Deviled Eggs",
         "category": "Snacks",
         "ingredients": [
-            "eggs",
-            "mayonnaise",
-            "mustard",
-            "paprika"
+            "2 eggs",
+            "1.5 tbsp of mayonnaise",
+            "1 tbsp of mustard",
+            "1 tsp of paprika"
         ],
         "dietary": [
             "Vegetarian",
@@ -1361,11 +1361,11 @@
         "name": "Garlic Butter Popcorn",
         "category": "Snacks",
         "ingredients": [
-            "popcorn kernels",
-            "butter",
-            "garlic powder",
-            "parsley",
-            "salt"
+            "0.5 cup of popcorn kernels",
+            "2 tbsp of butter",
+            "1 tsp of garlic powder",
+            "2 tbsp of parsley",
+            "1 tsp of salt"
         ],
         "dietary": [
             "Vegetarian",
@@ -1394,12 +1394,12 @@
         "name": "Chocolate Fudge Brownies",
         "category": "Desserts",
         "ingredients": [
-            "butter",
-            "sugar",
-            "cocoa powder",
-            "eggs",
-            "flour",
-            "vanilla extract"
+            "2 tbsp of butter",
+            "0.25 cup of sugar",
+            "2 tbsp of cocoa powder",
+            "2 eggs",
+            "1 cup of flour",
+            "1 tsp of vanilla extract"
         ],
         "dietary": [
             "Vegetarian"
@@ -1415,7 +1415,7 @@
             "Chocolate_Fudge_Brownies_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 350°F (175°C) and grease a square baking pan.",
+            "Preheat the oven to 350\u00c2\u00b0F (175\u00c2\u00b0C) and grease a square baking pan.",
             "Melt butter in a saucepan over low heat, then stir in sugar and cocoa powder.",
             "Remove from heat and whisk in eggs and vanilla extract.",
             "Gently fold in flour until just combined.",
@@ -1430,12 +1430,12 @@
         "name": "Classic Apple Pie",
         "category": "Desserts",
         "ingredients": [
-            "apples",
-            "sugar",
-            "cinnamon",
-            "pie crust",
-            "butter",
-            "lemon juice"
+            "3 apples",
+            "0.25 cup of sugar",
+            "1 tsp of cinnamon",
+            "1 pie crust",
+            "2 tbsp of butter",
+            "2 tbsp of lemon juice"
         ],
         "dietary": [
             "Vegetarian"
@@ -1451,7 +1451,7 @@
             "Classic_Apple_Pie_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C).",
+            "Preheat the oven to 375\u00c2\u00b0F (190\u00c2\u00b0C).",
             "Peel, core, and slice the apples, then toss them with sugar, cinnamon, and lemon juice.",
             "Roll out one pie crust and fit it into a pie dish.",
             "Fill the crust with the apple mixture and dot with small pieces of butter.",
@@ -1466,12 +1466,12 @@
         "name": "Lemon Cheesecake Bars",
         "category": "Desserts",
         "ingredients": [
-            "cream cheese",
-            "sugar",
-            "eggs",
-            "lemon zest",
-            "lemon juice",
-            "graham crackers"
+            "3 oz of cream cheese",
+            "0.25 cup of sugar",
+            "2 eggs",
+            "1 tsp of lemon zest",
+            "2 tbsp of lemon juice",
+            "3 graham crackers"
         ],
         "dietary": [
             "Vegetarian"
@@ -1487,7 +1487,7 @@
             "Lemon_Cheesecake_Bars_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 325°F (165°C) and line a baking dish with parchment paper.",
+            "Preheat the oven to 325\u00c2\u00b0F (165\u00c2\u00b0C) and line a baking dish with parchment paper.",
             "Crush graham crackers into fine crumbs and mix with melted butter and sugar to form a crust.",
             "Press the crust mixture into the bottom of the prepared baking dish and bake for 10 minutes.",
             "In a large bowl, beat cream cheese, sugar, eggs, lemon zest, and lemon juice until smooth.",
@@ -1502,12 +1502,12 @@
         "name": "Tiramisu",
         "category": "Desserts",
         "ingredients": [
-            "ladyfingers",
-            "mascarpone cheese",
-            "coffee",
-            "cocoa powder",
-            "eggs",
-            "sugar"
+            "4 ladyfingers",
+            "3 oz of mascarpone cheese",
+            "6 oz of coffee",
+            "2 tbsp of cocoa powder",
+            "2 eggs",
+            "0.25 cup of sugar"
         ],
         "dietary": [
             "Vegetarian"
@@ -1537,11 +1537,11 @@
         "name": "Vegan Chocolate Avocado Mousse",
         "category": "Desserts",
         "ingredients": [
-            "avocado",
-            "cocoa powder",
-            "maple syrup",
-            "almond milk",
-            "vanilla extract"
+            "1 avocado",
+            "2 tbsp of cocoa powder",
+            "2 tbsp of maple syrup",
+            "8 oz of almond milk",
+            "1 tsp of vanilla extract"
         ],
         "dietary": [
             "Vegan",
@@ -1570,11 +1570,11 @@
         "name": "Strawberry Shortcake",
         "category": "Desserts",
         "ingredients": [
-            "strawberries",
-            "sugar",
-            "whipping cream",
-            "vanilla extract",
-            "biscuits"
+            "0.75 cup of strawberries",
+            "0.25 cup of sugar",
+            "0.5 cup of whipping cream",
+            "1 tsp of vanilla extract",
+            "2 biscuits"
         ],
         "dietary": [
             "Vegetarian"
@@ -1602,12 +1602,12 @@
         "name": "Panna Cotta with Berry Sauce",
         "category": "Desserts",
         "ingredients": [
-            "heavy cream",
-            "gelatin",
-            "sugar",
-            "vanilla",
-            "berries",
-            "lemon juice"
+            "0.5 cup of heavy cream",
+            "1 packet of gelatin",
+            "0.25 cup of sugar",
+            "1 tsp of vanilla",
+            "1 cup of berries",
+            "2 tbsp of lemon juice"
         ],
         "dietary": [
             "Vegetarian",
@@ -1639,12 +1639,12 @@
         "name": "Molten Chocolate Lava Cake",
         "category": "Desserts",
         "ingredients": [
-            "dark chocolate",
-            "butter",
-            "eggs",
-            "sugar",
-            "flour",
-            "vanilla"
+            "2 tbsp of dark chocolate",
+            "2 tbsp of butter",
+            "2 eggs",
+            "0.25 cup of sugar",
+            "1 cup of flour",
+            "1 tsp of vanilla"
         ],
         "dietary": [
             "Vegetarian"
@@ -1660,7 +1660,7 @@
             "Molten_Chocolate_Lava_Cake_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 425°F (220°C) and grease ramekins generously with butter.",
+            "Preheat the oven to 425\u00c2\u00b0F (220\u00c2\u00b0C) and grease ramekins generously with butter.",
             "Melt dark chocolate and butter together in a double boiler, stirring until smooth.",
             "In a bowl, whisk eggs and sugar until pale and thick, then fold in the chocolate mixture.",
             "Gently fold in flour and vanilla extract until just combined.",
@@ -1674,10 +1674,10 @@
         "name": "Classic Creme Brulee",
         "category": "Desserts",
         "ingredients": [
-            "heavy cream",
-            "egg yolks",
-            "sugar",
-            "vanilla extract"
+            "0.5 cup of heavy cream",
+            "2 egg yolks",
+            "0.25 cup of sugar",
+            "1 tsp of vanilla extract"
         ],
         "dietary": [
             "Vegetarian",
@@ -1694,7 +1694,7 @@
             "Classic_Creme_Brulee_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 325°F (165°C).",
+            "Preheat the oven to 325\u00c2\u00b0F (165\u00c2\u00b0C).",
             "In a saucepan, heat cream and vanilla over medium heat until just simmering.",
             "In a bowl, whisk egg yolks and sugar until pale, then slowly whisk in the warm cream.",
             "Strain the mixture into ramekins and place them in a baking dish.",
@@ -1709,11 +1709,11 @@
         "name": "No-Bake Peanut Butter Bars",
         "category": "Desserts",
         "ingredients": [
-            "peanut butter",
-            "butter",
-            "graham crackers",
-            "powdered sugar",
-            "chocolate chips"
+            "2 tbsp of peanut butter",
+            "2 tbsp of butter",
+            "3 graham crackers",
+            "0.5 cup of powdered sugar",
+            "0.5 cup of chocolate chips"
         ],
         "dietary": [
             "Vegetarian"
@@ -1741,10 +1741,10 @@
         "name": "Classic Lemonade",
         "category": "Beverages",
         "ingredients": [
-            "lemons",
-            "sugar",
-            "water",
-            "ice"
+            "2 lemons",
+            "0.25 cup of sugar",
+            "1 cup of water",
+            "1 cup of ice"
         ],
         "dietary": [
             "Vegan",
@@ -1777,10 +1777,10 @@
         "name": "Iced Coffee",
         "category": "Beverages",
         "ingredients": [
-            "coffee",
-            "milk",
-            "sugar",
-            "ice"
+            "6 oz of coffee",
+            "1 cup of milk",
+            "0.25 cup of sugar",
+            "1 cup of ice"
         ],
         "dietary": [
             "Vegetarian",
@@ -1811,11 +1811,11 @@
         "name": "Berry Smoothie",
         "category": "Beverages",
         "ingredients": [
-            "mixed berries",
-            "banana",
-            "yogurt",
-            "milk",
-            "honey"
+            "1 cup of mixed berries",
+            "1 banana",
+            "0.5 cup of yogurt",
+            "1 cup of milk",
+            "1 tbsp of honey"
         ],
         "dietary": [
             "Vegetarian",
@@ -1844,11 +1844,11 @@
         "name": "Hot Chocolate",
         "category": "Beverages",
         "ingredients": [
-            "milk",
-            "cocoa powder",
-            "sugar",
-            "vanilla extract",
-            "whipped cream"
+            "1 cup of milk",
+            "2 tbsp of cocoa powder",
+            "0.25 cup of sugar",
+            "1 tsp of vanilla extract",
+            "0.5 cup of whipped cream"
         ],
         "dietary": [
             "Vegetarian",
@@ -1877,11 +1877,11 @@
         "name": "Mojito Mocktail",
         "category": "Beverages",
         "ingredients": [
-            "mint leaves",
-            "lime",
-            "sugar",
-            "sparkling water",
-            "ice"
+            "1 tbsp of mint leaves",
+            "1 lime",
+            "0.25 cup of sugar",
+            "250 ml of sparkling water",
+            "1 cup of ice"
         ],
         "dietary": [
             "Vegan",
@@ -1909,12 +1909,12 @@
         "name": "Grilled Vegetable Skewers",
         "category": "Summer",
         "ingredients": [
-            "zucchini",
-            "bell peppers",
-            "red onion",
-            "mushrooms",
-            "olive oil",
-            "herbs"
+            "1 zucchini",
+            "2 bell peppers",
+            "1 red onion",
+            "1 cup of mushrooms",
+            "2 tbsp of olive oil",
+            "2 tbsp of herbs"
         ],
         "dietary": [
             "Vegan",
@@ -1945,11 +1945,11 @@
         "name": "Caprese Salad",
         "category": "Summer",
         "ingredients": [
-            "tomatoes",
-            "mozzarella",
-            "basil",
-            "olive oil",
-            "balsamic glaze"
+            "2 tomatoes",
+            "4 slices of mozzarella",
+            "2 tbsp of basil",
+            "2 tbsp of olive oil",
+            "2 tbsp of balsamic glaze"
         ],
         "dietary": [
             "Vegetarian",
@@ -1979,11 +1979,11 @@
         "name": "Watermelon Feta Salad",
         "category": "Summer",
         "ingredients": [
-            "watermelon",
-            "feta cheese",
-            "mint",
-            "lime",
-            "olive oil"
+            "1 cup of watermelon",
+            "0.25 cup of feta cheese",
+            "2 tbsp of mint",
+            "1 lime",
+            "2 tbsp of olive oil"
         ],
         "dietary": [
             "Vegetarian",
@@ -2013,12 +2013,12 @@
         "name": "Grilled Shrimp Tacos",
         "category": "Summer",
         "ingredients": [
-            "shrimp",
-            "taco shells",
-            "lime",
-            "cabbage",
-            "avocado",
-            "cilantro"
+            "6 shrimp",
+            "2 taco shells",
+            "1 lime",
+            "1.5 cups of cabbage",
+            "1 avocado",
+            "2 tbsp of cilantro"
         ],
         "dietary": [
             "High-Protein",
@@ -2048,11 +2048,11 @@
         "name": "Peach Iced Tea",
         "category": "Summer",
         "ingredients": [
-            "peaches",
-            "black tea",
-            "sugar",
-            "water",
-            "ice"
+            "2 peaches",
+            "1 bag of black tea",
+            "0.25 cup of sugar",
+            "1 cup of water",
+            "1 cup of ice"
         ],
         "dietary": [
             "Vegan",
@@ -2081,13 +2081,13 @@
         "name": "Hearty Beef Stew",
         "category": "Winter",
         "ingredients": [
-            "beef",
-            "potatoes",
-            "carrots",
-            "celery",
-            "onion",
-            "beef broth",
-            "tomato paste"
+            "0.5 lb of beef",
+            "2 potatoes",
+            "2 carrots",
+            "2 stalks of celery",
+            "1 onion",
+            "6 oz of beef broth",
+            "2 tbsp of tomato paste"
         ],
         "dietary": [],
         "season": "Winter",
@@ -2105,7 +2105,7 @@
         "steps": [
             "Cut the beef into bite-sized pieces and season with salt and pepper.",
             "In a large pot, heat oil and sear the beef until browned on all sides, then remove from the pot.",
-            "Sauté diced onion, carrots, and celery in the same pot until softened.",
+            "Saut\u00c3\u00a9 diced onion, carrots, and celery in the same pot until softened.",
             "Stir in tomato paste and cook for 1 minute.",
             "Return the beef to the pot and add beef broth and cubed potatoes.",
             "Bring to a boil, then reduce heat and simmer for 1.5 hours, or until the beef is tender.",
@@ -2118,12 +2118,12 @@
         "name": "Creamy Tomato Soup",
         "category": "Winter",
         "ingredients": [
-            "tomatoes",
-            "onion",
-            "garlic",
-            "cream",
-            "vegetable broth",
-            "basil"
+            "2 tomatoes",
+            "1 onion",
+            "2 cloves of garlic",
+            "0.5 cup of cream",
+            "8 oz of vegetable broth",
+            "2 tbsp of basil"
         ],
         "dietary": [
             "Vegetarian",
@@ -2141,7 +2141,7 @@
             "Creamy_Tomato_Soup_5.webp"
         ],
         "steps": [
-            "In a large pot, sauté diced onion and minced garlic in olive oil until soft.",
+            "In a large pot, saut\u00c3\u00a9 diced onion and minced garlic in olive oil until soft.",
             "Add chopped tomatoes and cook for 10 minutes, stirring occasionally.",
             "Pour in vegetable broth and simmer for another 10 minutes.",
             "Blend the soup until smooth using an immersion blender.",
@@ -2155,12 +2155,12 @@
         "name": "Butternut Squash Risotto",
         "category": "Winter",
         "ingredients": [
-            "butternut squash",
-            "arborio rice",
-            "onion",
-            "garlic",
-            "parmesan cheese",
-            "vegetable broth"
+            "1 cup of butternut squash",
+            "1 cup of arborio rice",
+            "1 onion",
+            "2 cloves of garlic",
+            "0.25 cup of parmesan cheese",
+            "8 oz of vegetable broth"
         ],
         "dietary": [
             "Vegetarian",
@@ -2177,8 +2177,8 @@
             "Butternut_Squash_Risotto_4.webp"
         ],
         "steps": [
-            "Peel and cube the butternut squash, then roast in the oven at 400°F (200°C) for 20 minutes, or until tender.",
-            "In a large skillet, sauté diced onion and minced garlic in olive oil until soft.",
+            "Peel and cube the butternut squash, then roast in the oven at 400\u00c2\u00b0F (200\u00c2\u00b0C) for 20 minutes, or until tender.",
+            "In a large skillet, saut\u00c3\u00a9 diced onion and minced garlic in olive oil until soft.",
             "Stir in arborio rice and cook for 2 minutes, ensuring each grain is coated in oil.",
             "Add a ladle of warm vegetable broth to the skillet and stir until absorbed.",
             "Continue adding broth, one ladle at a time, until the rice is tender and creamy, about 20 minutes.",
@@ -2192,12 +2192,12 @@
         "name": "Shepherd's Pie",
         "category": "Winter",
         "ingredients": [
-            "ground beef",
-            "mashed potatoes",
-            "carrots",
-            "peas",
-            "onion",
-            "gravy"
+            "0.5 lb of ground beef",
+            "1 cup of mashed potatoes",
+            "2 carrots",
+            "0.75 cup of peas",
+            "1 onion",
+            "0.5 cup of gravy"
         ],
         "dietary": [],
         "season": "Winter",
@@ -2211,7 +2211,7 @@
             "Shepherd's_Pie_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C).",
+            "Preheat the oven to 375\u00c2\u00b0F (190\u00c2\u00b0C).",
             "In a skillet, cook ground beef with diced onion until browned. Drain excess fat.",
             "Stir in chopped carrots, peas, and prepared gravy. Simmer for 10 minutes.",
             "Spread the beef mixture evenly in a baking dish and top with a thick layer of mashed potatoes.",
@@ -2225,11 +2225,11 @@
         "name": "Hot Spiced Apple Cider",
         "category": "Winter",
         "ingredients": [
-            "apple cider",
-            "cinnamon sticks",
-            "cloves",
-            "orange slices",
-            "honey"
+            "4 oz of apple cider",
+            "2 cinnamon sticks",
+            "3 cloves",
+            "3 orange slices",
+            "1 tbsp of honey"
         ],
         "dietary": [
             "Vegan",
@@ -2258,13 +2258,13 @@
         "name": "Spring Vegetable Stir-Fry",
         "category": "Spring",
         "ingredients": [
-            "asparagus",
-            "snap peas",
-            "carrots",
-            "bell peppers",
-            "soy sauce",
-            "ginger",
-            "sesame oil"
+            "1 cup of asparagus",
+            "0.5 cup of snap peas",
+            "2 carrots",
+            "2 bell peppers",
+            "1 tbsp of soy sauce",
+            "1 tsp of ginger",
+            "60 ml of sesame oil"
         ],
         "dietary": [
             "Vegan",
@@ -2299,12 +2299,12 @@
         "name": "Pea and Mint Soup",
         "category": "Spring",
         "ingredients": [
-            "peas",
-            "vegetable broth",
-            "onion",
-            "garlic",
-            "mint leaves",
-            "cream"
+            "0.75 cup of peas",
+            "8 oz of vegetable broth",
+            "1 onion",
+            "2 cloves of garlic",
+            "1 tbsp of mint leaves",
+            "0.5 cup of cream"
         ],
         "dietary": [
             "Vegetarian",
@@ -2321,7 +2321,7 @@
             "Pea_and_Mint_Soup_4.webp"
         ],
         "steps": [
-            "In a large pot, sauté diced onion and minced garlic in olive oil until softened.",
+            "In a large pot, saut\u00c3\u00a9 diced onion and minced garlic in olive oil until softened.",
             "Add peas and vegetable broth, and simmer for 10 minutes.",
             "Blend the soup until smooth using an immersion blender.",
             "Stir in chopped fresh mint leaves and a splash of cream.",
@@ -2334,11 +2334,11 @@
         "name": "Strawberry Spinach Salad",
         "category": "Spring",
         "ingredients": [
-            "spinach",
-            "strawberries",
-            "feta cheese",
-            "walnuts",
-            "balsamic vinaigrette"
+            "1 cup of spinach",
+            "0.75 cup of strawberries",
+            "0.25 cup of feta cheese",
+            "0.25 cup of walnuts",
+            "1.5 tbsp of balsamic vinaigrette"
         ],
         "dietary": [
             "Vegetarian",
@@ -2366,12 +2366,12 @@
         "name": "Lemon Herb Chicken",
         "category": "Spring",
         "ingredients": [
-            "chicken breast",
-            "lemon",
-            "thyme",
-            "rosemary",
-            "garlic",
-            "olive oil"
+            "1 chicken breast",
+            "1 lemon",
+            "1 tsp of thyme",
+            "1 tbsp of rosemary",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil"
         ],
         "dietary": [
             "High-Protein",
@@ -2388,7 +2388,7 @@
             "Lemon_Herb_Chicken_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C).",
+            "Preheat the oven to 375\u00c2\u00b0F (190\u00c2\u00b0C).",
             "In a small bowl, mix olive oil, minced garlic, lemon juice, and chopped herbs (thyme and rosemary).",
             "Season chicken breasts with salt and pepper, then brush with the herb mixture.",
             "Place the chicken in a baking dish and bake for 25-30 minutes, or until cooked through.",
@@ -2401,12 +2401,12 @@
         "name": "Asparagus and Goat Cheese Tart",
         "category": "Spring",
         "ingredients": [
-            "puff pastry",
-            "asparagus",
-            "goat cheese",
-            "egg",
-            "parmesan cheese",
-            "herbs"
+            "1 sheet of puff pastry",
+            "1 cup of asparagus",
+            "2 oz of goat cheese",
+            "1 egg",
+            "0.25 cup of parmesan cheese",
+            "2 tbsp of herbs"
         ],
         "dietary": [
             "Vegetarian"
@@ -2422,7 +2422,7 @@
             "Asparagus_and_Goat_Cheese_Tart_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 400°F (200°C).",
+            "Preheat the oven to 400\u00c2\u00b0F (200\u00c2\u00b0C).",
             "Roll out the puff pastry onto a baking sheet and prick the center with a fork to prevent puffing.",
             "Spread goat cheese evenly over the pastry, leaving a 1-inch border around the edges.",
             "Arrange asparagus spears on top of the goat cheese and sprinkle with grated parmesan and chopped herbs.",
@@ -2436,12 +2436,12 @@
         "name": "Pumpkin Soup",
         "category": "Autumn",
         "ingredients": [
-            "pumpkin",
-            "onion",
-            "garlic",
-            "vegetable broth",
-            "cream",
-            "nutmeg"
+            "0.5 cup of pumpkin",
+            "1 onion",
+            "2 cloves of garlic",
+            "8 oz of vegetable broth",
+            "0.5 cup of cream",
+            "0.5 tsp of nutmeg"
         ],
         "dietary": [
             "Vegetarian",
@@ -2459,7 +2459,7 @@
         ],
         "steps": [
             "Peel and cube the pumpkin, then set aside.",
-            "In a large pot, sauté diced onion and minced garlic in olive oil until softened.",
+            "In a large pot, saut\u00c3\u00a9 diced onion and minced garlic in olive oil until softened.",
             "Add the pumpkin cubes and vegetable broth, then bring to a boil.",
             "Reduce heat and simmer for 20 minutes, or until the pumpkin is tender.",
             "Blend the soup until smooth using an immersion blender.",
@@ -2472,11 +2472,11 @@
         "name": "Maple Roasted Brussels Sprouts",
         "category": "Autumn",
         "ingredients": [
-            "brussels sprouts",
-            "maple syrup",
-            "olive oil",
-            "salt",
-            "pepper"
+            "1 cup of brussels sprouts",
+            "2 tbsp of maple syrup",
+            "2 tbsp of olive oil",
+            "1 tsp of salt",
+            "0.5 tsp of pepper"
         ],
         "dietary": [
             "Vegan",
@@ -2497,7 +2497,7 @@
             "Maple_Roasted_Brussels_Sprouts_8.webp"
         ],
         "steps": [
-            "Preheat the oven to 400°F (200°C).",
+            "Preheat the oven to 400\u00c2\u00b0F (200\u00c2\u00b0C).",
             "Trim and halve the brussels sprouts, then toss with olive oil, maple syrup, salt, and pepper.",
             "Spread the brussels sprouts in a single layer on a baking sheet.",
             "Roast for 20 minutes, stirring halfway through, until caramelized and tender.",
@@ -2510,12 +2510,12 @@
         "name": "Apple Crisp",
         "category": "Autumn",
         "ingredients": [
-            "apples",
-            "oats",
-            "brown sugar",
-            "flour",
-            "butter",
-            "cinnamon"
+            "3 apples",
+            "0.75 cup of oats",
+            "0.25 cup of brown sugar",
+            "1 cup of flour",
+            "2 tbsp of butter",
+            "1 tsp of cinnamon"
         ],
         "dietary": [
             "Vegetarian"
@@ -2531,7 +2531,7 @@
             "Apple_Crisp_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C).",
+            "Preheat the oven to 375\u00c2\u00b0F (190\u00c2\u00b0C).",
             "Peel and slice the apples, then place them in a baking dish.",
             "In a bowl, mix oats, brown sugar, flour, cinnamon, and softened butter until crumbly.",
             "Sprinkle the mixture evenly over the apples.",
@@ -2545,11 +2545,11 @@
         "name": "Butternut Squash and Sage Pasta",
         "category": "Autumn",
         "ingredients": [
-            "butternut squash",
-            "pasta",
-            "sage",
-            "butter",
-            "parmesan cheese"
+            "1 cup of butternut squash",
+            "1 cup of pasta",
+            "1 tsp of sage",
+            "2 tbsp of butter",
+            "0.25 cup of parmesan cheese"
         ],
         "dietary": [
             "Vegetarian"
@@ -2565,7 +2565,7 @@
             "Butternut_Squash_and_Sage_Pasta_4.webp"
         ],
         "steps": [
-            "Peel and cube the butternut squash, then roast in the oven at 400°F (200°C) for 20 minutes, or until tender.",
+            "Peel and cube the butternut squash, then roast in the oven at 400\u00c2\u00b0F (200\u00c2\u00b0C) for 20 minutes, or until tender.",
             "Cook pasta according to package instructions, then drain and set aside.",
             "In a large skillet, melt butter and fry fresh sage leaves until crispy. Remove and set aside.",
             "Add the roasted squash to the skillet and mash slightly to create a sauce-like consistency.",
@@ -2579,11 +2579,11 @@
         "name": "Spiced Pear and Walnut Salad",
         "category": "Autumn",
         "ingredients": [
-            "pears",
-            "walnuts",
-            "spinach",
-            "blue cheese",
-            "balsamic vinaigrette"
+            "2 pears",
+            "0.25 cup of walnuts",
+            "1 cup of spinach",
+            "2 oz of blue cheese",
+            "1.5 tbsp of balsamic vinaigrette"
         ],
         "dietary": [
             "Vegetarian",
@@ -2614,12 +2614,12 @@
         "name": "Bruschetta with Tomato and Basil",
         "category": "Appetizers",
         "ingredients": [
-            "baguette",
-            "tomatoes",
-            "basil",
-            "garlic",
-            "olive oil",
-            "balsamic glaze"
+            "4 slices of baguette",
+            "2 tomatoes",
+            "2 tbsp of basil",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil",
+            "2 tbsp of balsamic glaze"
         ],
         "dietary": [
             "Vegetarian"
@@ -2647,12 +2647,12 @@
         "name": "Stuffed Mushrooms",
         "category": "Appetizers",
         "ingredients": [
-            "mushrooms",
-            "cream cheese",
-            "parmesan cheese",
-            "garlic",
-            "breadcrumbs",
-            "parsley"
+            "1 cup of mushrooms",
+            "3 oz of cream cheese",
+            "0.25 cup of parmesan cheese",
+            "2 cloves of garlic",
+            "0.5 cup of breadcrumbs",
+            "2 tbsp of parsley"
         ],
         "dietary": [
             "Vegetarian"
@@ -2668,10 +2668,10 @@
             "Stuffed_Mushrooms_4.webp"
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C).",
+            "Preheat the oven to 375\u00c2\u00b0F (190\u00c2\u00b0C).",
             "Remove the stems from the mushrooms and chop them finely.",
-            "In a skillet, sauté the chopped stems with minced garlic until softened.",
-            "Mix the sautéed stems with cream cheese, parmesan cheese, breadcrumbs, and parsley.",
+            "In a skillet, saut\u00c3\u00a9 the chopped stems with minced garlic until softened.",
+            "Mix the saut\u00c3\u00a9ed stems with cream cheese, parmesan cheese, breadcrumbs, and parsley.",
             "Fill the mushroom caps with the mixture and place them on a baking sheet.",
             "Bake for 20 minutes, or until the tops are golden brown."
         ],
@@ -2682,11 +2682,11 @@
         "name": "Caprese Skewers",
         "category": "Appetizers",
         "ingredients": [
-            "cherry tomatoes",
-            "mozzarella balls",
-            "basil",
-            "olive oil",
-            "balsamic glaze"
+            "0.5 cup of cherry tomatoes",
+            "0.5 cup of mozzarella balls",
+            "2 tbsp of basil",
+            "2 tbsp of olive oil",
+            "2 tbsp of balsamic glaze"
         ],
         "dietary": [
             "Vegetarian",
@@ -2715,11 +2715,11 @@
         "name": "Deviled Eggs with Bacon",
         "category": "Appetizers",
         "ingredients": [
-            "eggs",
-            "mayonnaise",
-            "mustard",
-            "paprika",
-            "bacon"
+            "2 eggs",
+            "1.5 tbsp of mayonnaise",
+            "1 tbsp of mustard",
+            "1 tsp of paprika",
+            "3 slices of bacon"
         ],
         "dietary": [
             "Gluten-Free"
@@ -2748,12 +2748,12 @@
         "name": "Spinach and Artichoke Dip",
         "category": "Appetizers",
         "ingredients": [
-            "spinach",
-            "artichokes",
-            "cream cheese",
-            "parmesan cheese",
-            "garlic",
-            "sour cream"
+            "1 cup of spinach",
+            "2 artichokes",
+            "3 oz of cream cheese",
+            "0.25 cup of parmesan cheese",
+            "2 cloves of garlic",
+            "0.25 cup of sour cream"
         ],
         "dietary": [
             "Vegetarian",
@@ -2772,7 +2772,7 @@
             "Spinach_and_Artichoke_Dip_6.webp"
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C).",
+            "Preheat the oven to 375\u00c2\u00b0F (190\u00c2\u00b0C).",
             "In a bowl, mix chopped spinach, artichokes, cream cheese, sour cream, grated parmesan cheese, and minced garlic.",
             "Transfer the mixture to a baking dish and spread evenly.",
             "Bake for 20 minutes, or until bubbly and golden on top.",
