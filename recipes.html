@@ -48,7 +48,30 @@
 </nav>
 
 <div class="container my-3">
-  <input type="search" id="searchBar" class="form-control" placeholder="Search recipes...">
+  <input type="search" id="searchBar" class="form-control mb-2" placeholder="Search recipes by name or ingredient...">
+  <div class="d-flex flex-wrap gap-2">
+    <select id="filterSeason" class="form-select w-auto">
+      <option value="">All Seasons</option>
+      <option value="Spring">Spring</option>
+      <option value="Summer">Summer</option>
+      <option value="Autumn">Autumn</option>
+      <option value="Winter">Winter</option>
+      <option value="All">All Year</option>
+    </select>
+    <select id="filterCategory" class="form-select w-auto">
+      <option value="">All Categories</option>
+      <option value="Breakfast">Breakfast</option>
+      <option value="Lunch">Lunch</option>
+      <option value="Dinner">Dinner</option>
+      <option value="Desserts">Desserts</option>
+      <option value="Snacks">Snacks</option>
+      <option value="Beverages">Beverages</option>
+      <option value="Appetizers">Appetizers</option>
+    </select>
+    <select id="filterCuisine" class="form-select w-auto">
+      <option value="">All Cuisines</option>
+    </select>
+  </div>
 </div>
 
 <h1 class="text-center">All Recipes</h1>
@@ -58,19 +81,32 @@
 
 <script src="script.js"></script>
 <script>
+let allRecipes = [];
+
 async function loadSeasonalPage() {
-  let recipes = [];
   try {
     const res = await fetch('recipes.json');
-    recipes = await res.json();
+    allRecipes = await res.json();
   } catch (e) { return; }
 
+  const cuisines = [...new Set(allRecipes.map(r => r.cuisine))].sort();
+  const cuisineSelect = document.getElementById('filterCuisine');
+  cuisines.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = c;
+    cuisineSelect.appendChild(opt);
+  });
+
+  renderCards(allRecipes);
+}
+
+function renderCards(recipes) {
   const container = document.getElementById('seasonal-cards');
   if (recipes.length === 0) {
-    container.innerHTML = '<p>No recipes found.</p>';
+    container.innerHTML = '<p class="text-center">No recipes found.</p>';
     return;
   }
-
   const favs = getFavorites();
   container.innerHTML = recipes.map(recipe => {
     const image = recipe.images && recipe.images[0] ? `dataset/image_files/${recipe.images[0]}` : '';
@@ -94,6 +130,35 @@ async function loadSeasonalPage() {
       </div>`;
   }).join('');
 }
+
+function applyFilters() {
+  const query = document.getElementById('searchBar').value.toLowerCase();
+  const season = document.getElementById('filterSeason').value;
+  const category = document.getElementById('filterCategory').value;
+  const cuisine = document.getElementById('filterCuisine').value;
+
+  const filtered = allRecipes.filter(recipe => {
+    const nameMatch = recipe.name.toLowerCase().includes(query);
+    const ingredientMatch = recipe.ingredients.some(i => i.toLowerCase().includes(query));
+    const textMatch = nameMatch || ingredientMatch;
+
+    const seasonMatch = !season || recipe.season === season || recipe.season === 'All';
+    const categoryMatch = !category || recipe.category === category;
+    const cuisineMatch = !cuisine || recipe.cuisine === cuisine;
+
+    return textMatch && seasonMatch && categoryMatch && cuisineMatch;
+  });
+
+  renderCards(filtered);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('searchBar').addEventListener('input', applyFilters);
+  document.getElementById('filterSeason').addEventListener('change', applyFilters);
+  document.getElementById('filterCategory').addEventListener('change', applyFilters);
+  document.getElementById('filterCuisine').addEventListener('change', applyFilters);
+});
+
 loadSeasonalPage();
 </script>
 </body>
