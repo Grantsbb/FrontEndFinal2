@@ -221,10 +221,10 @@ function showTutorialStep(index) {
   positionBox(step.target);
 }
 
-<!--function endTutorial() {
+function endTutorial() {
   overlay.style.display = 'none';
   document.querySelectorAll('.tutorial-highlight').forEach(e => e.classList.remove('tutorial-highlight'));
-  localStorage.setItem('tutorialDone', 'true');
+ // localStorage.setItem('tutorialDone', 'true');
 }
 
 document.getElementById('tutorial-next').addEventListener('click', () => {
@@ -238,11 +238,11 @@ document.getElementById('tutorial-next').addEventListener('click', () => {
 
 document.getElementById('tutorial-skip').addEventListener('click', endTutorial);
   
-if (!localStorage.getItem('tutorialDone')) {
+//if (!localStorage.getItem('tutorialDone')) {
   overlay.style.display = '';
   showTutorialStep(0);
-}
--->
+//}
+
 </script>
 
 <style>
