@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit a Recipe — Nano's Bytes Monthly</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=Kalam&display=swap" rel="stylesheet" />
+  </head>
+  <div id="cooking-timer">
+    <div class="timer-inputs">
+      <input type="number" id="t-min" min="0" max="99" value="5" />
+      <span>:</span>
+      <input type="number" id="t-sec" min="0" max="59" value="0" />
+    </div>
+    <div class="timer-display">05:00</div>
+    <div class="timer-btns">
+      <button id="t-start">Start</button>
+      <button id="t-pause">Pause</button>
+      <button id="t-reset">Reset</button>
+    </div>
+    <div class="timer-status"></div>
+  </div>
+  <script src="timer.js"></script>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nano's Bytes Monthly</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipes.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="favorites.html">Favorites</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipesubmission.html">Share Your Recipes!</a>
+            </li>
+            <li class="switch">
+              <input type="checkbox" id="lightdarkmode" />
+              <label class="slider round" for="lightdarkmode"></label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+        <div class="container my-3">
+       <span>Recipe Submission Form</span> 
+       </div>
+    </header>
+
+    <div class="container my-3">
+    <input class="form-control form-control-sm w-25" type="text" placeholder="Multiply here" aria-label=".form-control-sm example">
+    </div>
+    <div class="container my-3">
+    <input class="form-control form-control-sm w-25" type="text" placeholder="Multiply here" aria-label=".form-control-sm example">
+    </div>
+    <div class="container my-3">
+    <input class="form-control form-control-sm w-25" type="text" placeholder="Multiply here" aria-label=".form-control-sm example">
+    </div>
+    <div class="container my-3">
+    <input class="form-control form-control-sm w-25" type="text" placeholder="Multiply here" aria-label=".form-control-sm example">
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      
+    </script>
+  </body>
+
+  <footer class="text-center py-3">
+    <small>
+      Nano's Bytes Monthly &mdash; Team 4 &mdash;
+      <a href="https://github.com/Grantsbb/FrontEndFinal">GitHub</a>
+    </small>
+  </footer>
+</html>
