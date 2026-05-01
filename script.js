@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
         const saveddarklightmode = localStorage.getItem('theme');
     const lightdarkmode = document.getElementById('lightdarkmode');
-document.getElementById('filterDietary').addEventListener('change', applyFilters);
-document.getElementById('filterDifficulty').addEventListener('change', applyFilters);
-document.getElementById('sortBy').addEventListener('change', applyFilters);
+const filterDietary = document.getElementById('filterDietary');
+if (filterDietary) filterDietary.addEventListener('change', applyFilters);
+const filterDifficulty = document.getElementById('filterDifficulty');
+if (filterDifficulty) filterDifficulty.addEventListener('change', applyFilters);
+const sortBy = document.getElementById('sortBy');
+if (sortBy) sortBy.addEventListener('change', applyFilters);
 lightdarkmode.addEventListener('change', function() {
     if (this.checked){
       applyTheme('dark');
@@ -15,6 +18,7 @@ lightdarkmode.addEventListener('change', function() {
 
   if (saveddarklightmode) applyTheme(saveddarklightmode);
   const searchBar = document.getElementById('searchBar');
+  if (!searchBar) return;
 
   searchBar.addEventListener('input', function () {
     const query = searchBar.value.toLowerCase();

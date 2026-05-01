@@ -123,8 +123,10 @@ async function loadSeasonalPage() {
     opt.textContent = c;
     cuisineSelect.appendChild(opt);
   });
-
+  const userRecipes = JSON.parse(localStorage.getItem('submittedrecipes') || '[]');
+  allRecipes = [...allRecipes, ...userRecipes];
   renderCards(allRecipes);
+  
 }
 
 function renderCards(recipes) {
@@ -135,7 +137,9 @@ function renderCards(recipes) {
   }
   const favs = getFavorites();
   container.innerHTML = recipes.map(recipe => {
-    const image = recipe.images && recipe.images[0] ? `dataset/image_files/${recipe.images[0]}` : '';
+    const image = recipe.images && recipe.images[0]
+    ? (recipe.images[0].startsWith('data:') ? recipe.images[0] : `dataset/image_files/${recipe.images[0]}`)                                                
+    : '';                                                                                                                                                
     const imgTag = image ? `<img src="${image}" class="card-img-top" alt="${recipe.name}">` : '';
     const isFav = favs.includes(String(recipe.id));
     return `

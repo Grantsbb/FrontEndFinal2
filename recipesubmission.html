@@ -68,22 +68,47 @@
     </header>
 
     <div class="container my-3">
-    <input class="form-control form-control-sm w-25" type="text" placeholder="Recipe Name">                                                                  
+    <input class="form-control form-control-sm w-25" type="text" id="recipeName" placeholder="Recipe Name">                                                                    
     </div>
     <div class="container my-3">
-    <textarea class="form-control" rows="5" placeholder="One ingredient per line"></textarea>
+    <textarea class="form-control" rows="5" id="recipeIngredients" placeholder="One ingredient per line"></textarea> 
  
     </div>
     <div class="container my-3">
-     <textarea class="form-control" rows="5" placeholder="One step per line"></textarea>   
+     <textarea class="form-control" rows="5" id="recipeSteps" placeholder="One step per line"></textarea>   
     </div>
     <div class="container my-3">
-     <input class="form-control" type="file" accept="image/*">
+     <input class="form-control" type="file" id="recipeImage" accept="image/*">  
     </div>
-    <button class="btn">Submit Recipe</button>
+    <button class="btn" onclick="submitRecipe()">Submit Recipe</button>     
+
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+         async function submitRecipe() {
+ const userrecipe = JSON.parse(localStorage.getItem('submittedrecipes') || '[]');           
+    const recipe = {                                                                                                                                         
+    id: 'user-' + Date.now(),                                                                                                                              
+    name: document.getElementById('recipeName').value,                                                                                                     
+    ingredients: document.getElementById('recipeIngredients').value.split('\n').filter(l => l.trim()),                                                     
+    steps: document.getElementById('recipeSteps').value.split('\n').filter(l => l.trim()),
+    images: [],                                                                                                                                            
+    category: 'User', season: 'All', cuisine: 'User', prep_time: 'N/A', difficulty: 'N/A'                                                                
+  };
+  const file = document.getElementById('recipeImage').files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = read => {
+      recipe.images = [read.target.result];
+        userrecipe.push(recipe);
+      localStorage.setItem('submittedrecipes', JSON.stringify(userrecipe));
+    };
+    reader.readAsDataURL(file);
+  } else {
+    userrecipe.push(recipe);
+    localStorage.setItem('submittedrecipes', JSON.stringify(userrecipe));
+  }
+}
       
     </script>
   </body>
