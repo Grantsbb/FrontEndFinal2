@@ -96,11 +96,16 @@
           return;
         }
 
-        const recipe = recipes.find((r) => String(r.id) === String(id));
+        let recipe = recipes.find((r) => String(r.id) === String(id));
         if (!recipe) {
-          container.innerHTML = "<p>Recipe not found.</p>";
-          return;
-        }
+    const submitted = JSON.parse(localStorage.getItem('submittedrecipes') || '[]');
+    recipe = submitted.find((r) => String(r.id) === String(id));
+  }
+
+  if (!recipe) {
+    container.innerHTML = "<p>Recipe not found.</p>";
+    return;
+  }
 
         document.title = recipe.name + " — Nano's Bytes Monthly";
 
