@@ -127,7 +127,15 @@
       <li><strong>Prep Time:</strong> ${recipe.prep_time}</li>
       <li><strong>Difficulty:</strong> ${recipe.difficulty}</li>
     </ul>
-    <h2>Ingredients</h2>
+    
+      
+      <button class="btn mb-3" id="add-to-shopping-btn">Add Ingredients to Shopping List</button>
+      <div id="shopping-list-section" style="display:none;" class="mb-4">
+        <h2>Shopping List</h2>
+        <ul id="shopping-list-items" class="list-unstyled"></ul>
+        <button class="btn mt-2" id="clear-shopping-btn">Clear List</button>
+      </div>
+      <h2>Instructions</h2>
     <ul id="ingredients-list">${ingredientsList}</ul>
 
     <div class="container my-3">
@@ -150,6 +158,86 @@
       
       
       async function rendermultchecklist() {
+// kill lines 161-239 in case checklist explodes lol        
+function loadShoppingList() {
+  return JSON.parse(localStorage.getItem('shoppingList') || '[]');
+}
+
+function saveShoppingList(list) {
+  localStorage.setItem('shoppingList', JSON.stringify(list));
+}
+
+function renderShoppingList() {
+  const list = loadShoppingList();
+  const ul = document.getElementById('shopping-list-items');
+  if (!ul) return;
+
+  if (list.length === 0) {
+    ul.innerHTML = '<li>No items.</li>';
+    return;
+  }
+
+  ul.innerHTML = list.map((item, i) => `
+    <li style="display:flex; align-items:center; gap:8px; margin-bottom:6px; ${item.purchased ? 'opacity:0.5;text-decoration:line-through;' : ''}">
+      <input type="checkbox" ${item.purchased ? 'checked' : ''} onchange="togglePurchased(${i})">
+      <span>${item.text}</span>
+      <button onclick="removeShoppingItem(${i})" style="margin-left:auto;background:none;border:none;cursor:pointer;font-size:1rem;">🗑️</button>
+    </li>
+  `).join('');
+}
+
+function togglePurchased(index) {
+  const list = loadShoppingList();
+  list[index].purchased = !list[index].purchased;
+  saveShoppingList(list);
+  renderShoppingList();
+}
+
+function removeShoppingItem(index) {
+  const list = loadShoppingList();
+  list.splice(index, 1);
+  saveShoppingList(list);
+  renderShoppingList();
+}
+
+const origRender = rendermultchecklist;
+document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    const addBtn = document.getElementById('add-to-shopping-btn');
+    const clearBtn = document.getElementById('clear-shopping-btn');
+    const section = document.getElementById('shopping-list-section');
+
+    if (addBtn) {
+      addBtn.addEventListener('click', () => {
+        const items = [...document.querySelectorAll('#ingredients-list li')].map(li => {
+          const label = li.querySelector('label');
+          return { text: label ? label.textContent : li.textContent, purchased: false };
+        });
+        const list = loadShoppingList();
+        items.forEach(item => {
+          if (!list.find(e => e.text === item.text)) list.push(item);
+        });
+        saveShoppingList(list);
+        section.style.display = '';
+        renderShoppingList();
+      });
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        saveShoppingList([]);
+        renderShoppingList();
+      });
+    }
+
+    const existing = loadShoppingList();
+    if (existing.length > 0 && section) {
+      section.style.display = '';
+      renderShoppingList();
+    }
+  }, 600);
+});
+        
         await loadRecipeDetail();
         document.querySelectorAll('#ingredients-list li').forEach(li => {
       const label = document.createElement('label');
